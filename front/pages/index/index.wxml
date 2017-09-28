@@ -1,0 +1,97 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="topnav">
+    <navigator url="../index/index" hover-class="navigator-hover" class="current">首页</navigator>
+    <navigator url="../product/product" hover-class="navigator-hover">产品中心</navigator>
+    <navigator url="../news/news" hover-class="navigator-hover">新闻中心</navigator>
+    <navigator url="../contactus/contactus" hover-class="navigator-hover">公司介绍</navigator>
+    <navigator url="../leave/leave" hover-class="navigator-hover">留言</navigator>
+  </view>
+  <swiper class="banner-swiper" indicator-dots="true" autoplay="true" indicator-active-color="#2199EE" 
+  interval="4000" duration="500">
+  <view wx:for="{{data.banner}}">
+      <swiper-item>
+        <image src="{{website + item.path}}" class="slide-image"></image>
+      </swiper-item>
+  </view>
+  </swiper>
+  <view class="Recommend">
+    <view class="common-tit">
+      <text>热门产品</text>
+    </view>
+    <view wx:for="{{data.product}}">
+    <view class="Recommend-wrap">
+      <view  class="item">
+        <image data-id="{{item.id}}" bindtap="detail" class="img" src="{{website + item.first_img}}"></image>
+        <view  data-id="{{item.id}}" bindtap="detail" class="info">
+          <text class="tit">{{item.name}}</text>
+          <text class="view"></text>
+        </view>
+      </view>
+    </view>
+    </view>
+  </view>
+  <view class="monthmain">
+    <view class="common-tit">
+      <text>案例展示</text>
+    </view>
+    <view class="monthmain-wrap">
+    <view wx:for="{{data.cases}}">
+      <view class="item">
+        <image class="img" src="{{website + item.file}}"></image>
+        <text class="name">{{item.name}}</text>
+      </view>
+      </view>
+    </view>
+  </view>
+  <!--
+  <view class="monthmain">
+    <view class="common-tit">
+      <text>新闻资讯</text>
+    </view>
+    <view class="newslist">
+      <view  bindtap="bindVnews" class="item">
+        <view class="info">
+          <text class="tit">这里是新闻标题这里是新闻标题这里是新闻标题</text>
+          <text class="time">2017-08-29</text>
+        </view>
+      </view>
+      <view  bindtap="bindVnews" class="item">
+        <view class="info">
+          <text class="tit">这里是新闻标题这里是新闻标题这里是新闻标题</text>
+          <text class="time">2017-08-29</text>
+        </view>
+      </view>
+      <view  bindtap="bindVnews" class="item">
+        <view class="info">
+          <text class="tit">这里是新闻标题这里是新闻标题这里是新闻标题</text>
+          <text class="time">2017-08-29</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  -->
+  <view class="footer_h"></view>
+  <view class="footer">
+    <navigator class="current" url="../index/index" hover-class="navigator-hover">
+      <view class="iconfont icon-shouye"></view>
+      <text>首页</text>
+    </navigator>
+    <navigator url="../product/product" hover-class="navigator-hover">
+      <view class="iconfont icon-chanpin"></view>
+      <text>产品中心</text>
+    </navigator>
+    <navigator url="../news/news" hover-class="navigator-hover">
+      <view class="iconfont icon-icon"></view>
+      <text> 新闻资讯</text>
+    </navigator>
+    <navigator url="../contactus/contactus" hover-class="navigator-hover">
+      <view class="iconfont icon-lianxi"></view>
+      <text>公司介绍</text>
+    </navigator>
+    <navigator url="../leave/leave" hover-class="navigator-hover">
+      <view class="iconfont icon-liuyan"></view>
+      <text>留言</text>
+    </navigator>
+  </view>
+</view>

@@ -1,0 +1,69 @@
+/**index.wxss**/
+.newslist{
+  width: 100%;
+}
+.newslist .item{
+  padding: 10px 12px;
+  box-sizing: border-box;
+  background: #fff;
+  margin-top: 10px;
+}
+.newslist .item .img{
+  float: left;
+  width: 110px;
+  height: 70px;
+}
+.newslist .item .info{
+  display: block;
+  overflow: hidden;
+}
+.newslist .item .info .tit{
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  font-size: 16px;
+  line-height: 22px;
+  padding-bottom: 4px;
+}
+.newslist .item .info .time{
+  display: block;
+  font-size: 13px;
+  color: #777;
+  line-height: 20px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

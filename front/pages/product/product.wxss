@@ -1,0 +1,73 @@
+/**product.wxss**/
+.Recommend{
+  width: 100%;
+  background: #fff;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+.Recommend-wrap .item{
+  border-bottom: 1px solid #E6E6E6;
+  padding: 10px 12px;
+  box-sizing: border-box;
+}
+.Recommend-wrap .item .img{
+  float: left;
+  width: 110px;
+  height: 70px;
+}
+.Recommend-wrap .item .info{
+  display: block;
+  margin-left: 120px;
+  height: 70px;
+  overflow: hidden;
+}
+.Recommend-wrap .item .info .tit{
+  display: block;
+  font-size: 16px;
+  line-height: 30px;
+  padding-bottom: 2px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.Recommend-wrap .item .info .view{
+  font-size: 13px;
+  color: #777;
+  line-height: 17px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

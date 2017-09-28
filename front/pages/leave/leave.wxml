@@ -1,0 +1,44 @@
+<!--pages/leave/leave.wxml-->
+<!--contactus.wxml-->
+<view class="container">
+  <view class="leave-wrap">  
+    <form>
+      <view class="item">
+        <label>手机：</label>
+        <input type="text" class="txt" />
+      </view>
+      <view class="item">
+        <label>邮箱：</label>
+        <input type="text" class="txt" />
+      </view>
+      <view class="item">
+        <label>留言:</label>
+        <textarea class="txtarea" />
+      </view>
+      <button form-type="submit" class="sub-btn">提交</button>
+    </form>
+  </view>
+  <view class="footer_h"></view>
+  <view class="footer">
+    <navigator class="current" url="../index/index" hover-class="navigator-hover">
+      <view class="iconfont icon-shouye"></view>
+      <text>首页</text>
+    </navigator>
+    <navigator url="../product/product" hover-class="navigator-hover">
+      <view class="iconfont icon-chanpin"></view>
+      <text>产品中心</text>
+    </navigator>
+    <navigator url="../news/news" hover-class="navigator-hover">
+      <view class="iconfont icon-icon"></view>
+      <text> 新闻资讯</text>
+    </navigator>
+    <navigator url="../contactus/contactus" hover-class="navigator-hover">
+      <view class="iconfont icon-lianxi"></view>
+      <text>联系我们</text>
+    </navigator>
+    <navigator url="../leave/leave" hover-class="navigator-hover">
+      <view class="iconfont icon-liuyan"></view>
+      <text>留言</text>
+    </navigator>
+  </view>
+</view>

@@ -1,0 +1,26 @@
+/* pages/newsview/newsview.wxss */
+@import "/wxParse/wxParse.wxss";
+.newsview-wrap{
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 30px 20px;
+  background: #fff;
+}
+.news-tit{
+  font-size: 14px;
+  color: #262626;
+  line-height: 18px;
+  text-align: center;
+  padding:0 8px 10px 8px;
+  border-bottom: 3px solid #3C7EDC;
+  margin-bottom: 15px;
+}
+.news-cont{
+  font-size: 13px;
+  line-height: 21px;
+  color: #555;
+}
+.news-cont image{
+  max-width: 98%;
+}

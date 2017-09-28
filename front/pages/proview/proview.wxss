@@ -1,0 +1,94 @@
+/**proview.wxss**/
+.h{
+  display: block;
+  width: 100%;
+  height: 50px;
+}
+.monthmain{
+  width: 100%;
+  background: #fff;
+  margin-bottom: 10px;
+}
+.common-tit{
+  border-bottom: 1px solid #E6E6E6;
+  padding: 20rpx 28rpx;
+  font-size: 40rpx;
+  line-height: 60rpx;
+}
+.car-tit .common-tit{
+  border-bottom: 0px none;
+}
+.car-tit{
+  width: 100%;
+  background: #fff;
+  margin-bottom: 10px;
+}
+.car-tit .info{
+  padding: 0 28rpx 15rpx 28rpx;
+  font-size: 24rpx;
+  color: #666;
+  line-height: 24px;
+}
+.car-info{
+  display: block;
+  width: 100%;
+  background: #fff;
+  margin-bottom: 10px;
+}
+.car-price{
+  font-size: 30rpx;
+  font-weight: 700;
+  color: #E64642;
+  line-height: 100rpx;
+  padding: 20rpx 28rpx;
+}
+.carview{
+  padding: 20rpx 28rpx;
+}
+.carview .tit{
+  display: block;
+  font-size: 26rpx;
+  line-height: 42rpx;
+  color: #888;
+}
+.carview .info{
+  display: block;
+  font-size: 26rpx;
+  line-height: 42rpx;
+  color: #262626;
+  padding-bottom: 20rpx;
+}
+.footer-wrap{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background: #fff;
+  font-size: 0;
+}
+.footer-wrap .btn{
+  display: inline-block;
+  width: 50%;
+  height: 50px;
+  font-size: 16px;
+  line-height: 50px;
+  text-align: center;
+  color: #fff;
+}
+.footer-wrap .btn-l{
+  background: #66CCFF;
+}
+.footer-wrap .btn-r{
+  background: #2298EF;
+}
+
+
+
+
+
+
+
+
+
+

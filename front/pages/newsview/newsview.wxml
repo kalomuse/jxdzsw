@@ -1,0 +1,33 @@
+<!--newsview.wxml-->
+<import src="/wxParse/wxParse.wxml"/>
+<view class="container">
+  <view class="newsview-wrap">
+    <view class="news-tit">{{data.title}}</view>
+    <view class="news-cont">
+      <template is="wxParse" data="{{wxParseData:article.nodes}}"/>
+    </view>
+  </view>
+  <view class="footer_h"></view>
+  <view class="footer">
+    <navigator class="current" url="../index/index" hover-class="navigator-hover">
+      <view class="iconfont icon-shouye"></view>
+      <text>首页</text>
+    </navigator>
+    <navigator url="../product/product" hover-class="navigator-hover">
+      <view class="iconfont icon-chanpin"></view>
+      <text>产品中心</text>
+    </navigator>
+    <navigator url="../news/news" hover-class="navigator-hover">
+      <view class="iconfont icon-icon"></view>
+      <text> 新闻资讯</text>
+    </navigator>
+    <navigator url="../contactus/contactus" hover-class="navigator-hover">
+      <view class="iconfont icon-lianxi"></view>
+      <text>联系我们</text>
+    </navigator>
+    <navigator url="../leave/leave" hover-class="navigator-hover">
+      <view class="iconfont icon-liuyan"></view>
+      <text>留言</text>
+    </navigator>
+  </view>
+</view>

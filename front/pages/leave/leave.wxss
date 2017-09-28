@@ -1,0 +1,55 @@
+/* pages/leave/leave.wxss */
+page{
+  background: #fff;
+}
+.leave-wrap{
+  display: block;
+  width: 100%;
+  margin-top: 15px;
+  padding: 0 18px;
+  box-sizing: border-box;
+}
+.item{
+  display: block;
+  clear: both;
+  height: auto;
+  padding-top: 15px;
+}
+.item label{
+  font-size: 14px;
+  color: #111;
+  float: left;
+  width: 42px;
+  height: 32px;
+  line-height: 32px;
+}
+.item .txt{
+  font-size: 14px;
+  color: #111;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #ddd;
+  padding: 0 10px;
+}
+.item .txtarea{
+  margin-left: 42px;
+  font-size: 14px;
+  color: #111;
+  height: 100px;
+  line-height: 24px;
+  border: 1px solid #ddd;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+.sub-btn{
+  display: block;
+  margin: 30px 18px;
+  background: #2199EE;
+  border-radius: 6px;
+  height: 42px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  line-height: 42px;
+  text-align: center;
+}

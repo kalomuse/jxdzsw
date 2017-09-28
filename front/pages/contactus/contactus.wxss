@@ -1,0 +1,54 @@
+/**contactus .wxss**/
+.contactus-wrap{
+  display: block;
+  width: 100%;
+  margin-top: 15px;
+  background: #fff;
+}
+.contactus-wrap .item{
+  border-bottom: 1px solid #E6E6E6;
+  padding: 20px 15px;
+  line-height: 20px
+}
+.contactus-wrap .item .tit{
+  font-size: 14px;
+  color: #111;
+  float: left;
+}
+.contactus-wrap .item .info{
+  font-size: 14px;
+  color: #333;
+}
+.contactus-wrap .item .info-phone{
+  color: #2D9FEF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
