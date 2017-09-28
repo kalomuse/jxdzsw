@@ -5,17 +5,17 @@
     <form>
       <view class="item">
         <label>手机：</label>
-        <input type="text" class="txt" />
+        <input bindinput="bindMobile" type="text" class="txt" />
       </view>
       <view class="item">
         <label>邮箱：</label>
-        <input type="text" class="txt" />
+        <input bindinput="bindEmail" type="text" class="txt" />
       </view>
       <view class="item">
         <label>留言:</label>
-        <textarea class="txtarea" />
+        <textarea bindinput="bindContent" class="txtarea" />
       </view>
-      <button form-type="submit" class="sub-btn">提交</button>
+      <button bindtap="bindMessage" form-type="submit" class="sub-btn">提 交</button>
     </form>
   </view>
   <view class="footer_h"></view>
