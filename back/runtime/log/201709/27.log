@@ -1,0 +1,3459 @@
+---------------------------------------------------------------
+[ 2017-09-27T00:02:09+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/cases/index
+[ info ] 127.0.0.1:4001/admin/cases/index [运行时间：0.050119s][吞吐率：19.95req/s] [内存消耗：1,593.15kb] [文件加载：36]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/product/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Cases->index[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ VIEW ] /Users/apple/git/huaqi/jxdzsw/application/admin/view/cases/index.html [ array (
+  0 => 'module',
+  1 => 'access_menu',
+  2 => 'menu',
+  3 => 'action',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-27T00:02:10+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/cases/ajax_fetch?_search=false&nd=1506441729908&rows=12&page=1&sidx=&sord=asc
+[ info ] 127.0.0.1:4001/admin/cases/ajax_fetch?_search=false&nd=1506441729908&rows=12&page=1&sidx=&sord=asc [运行时间：0.082927s][吞吐率：12.06req/s] [内存消耗：2,455.88kb] [文件加载：41]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'ajax_fetch',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  '_search' => 'false',
+  'nd' => '1506441729908',
+  'rows' => '12',
+  'page' => '1',
+  'sidx' => '',
+  'sord' => 'asc',
+)
+[ info ] [ RUN ] app\admin\controller\Cases->ajax_fetch[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002618s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.011160s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `cases` LIMIT 1 [ RunTime:0.000451s ]
+[ sql ] [ SQL ] SELECT * FROM `cases` ORDER BY id desc LIMIT 0,12 [ RunTime:0.000406s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:02:10+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/cases/index
+[ info ] 127.0.0.1:4001/admin/cases/index [运行时间：0.029306s][吞吐率：34.12req/s] [内存消耗：1,593.19kb] [文件加载：36]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/product/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Cases->index[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ VIEW ] /Users/apple/git/huaqi/jxdzsw/application/admin/view/cases/index.html [ array (
+  0 => 'module',
+  1 => 'access_menu',
+  2 => 'menu',
+  3 => 'action',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-27T00:02:11+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/cases/ajax_fetch?_search=false&nd=1506441731254&rows=12&page=1&sidx=&sord=asc
+[ info ] 127.0.0.1:4001/admin/cases/ajax_fetch?_search=false&nd=1506441731254&rows=12&page=1&sidx=&sord=asc [运行时间：0.056166s][吞吐率：17.80req/s] [内存消耗：2,455.88kb] [文件加载：41]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'ajax_fetch',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  '_search' => 'false',
+  'nd' => '1506441731254',
+  'rows' => '12',
+  'page' => '1',
+  'sidx' => '',
+  'sord' => 'asc',
+)
+[ info ] [ RUN ] app\admin\controller\Cases->ajax_fetch[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003307s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.009117s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `cases` LIMIT 1 [ RunTime:0.000431s ]
+[ sql ] [ SQL ] SELECT * FROM `cases` ORDER BY id desc LIMIT 0,12 [ RunTime:0.000416s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:02:55+08:00 ] 127.0.0.1 127.0.0.1 POST /base/upload/img?type=cases&is_create=1
+[ info ] 127.0.0.1:4001/base/upload/img?type=cases&is_create=1 [运行时间：31.256375s][吞吐率：0.03req/s] [内存消耗：2,452.82kb] [文件加载：38]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'base',
+    1 => 'upload',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryB2cQpPHYFQfAW3Hm',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'origin' => 'http://127.0.0.1:4001',
+  'content-length' => '6358',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'image/png',
+  'is_create' => '1',
+  'id' => 'WU_FILE_0',
+  'name' => 'comments (1).png',
+  'lastModifiedDate' => 'Fri Sep 08 2017 10:22:08 GMT+0800 (CST)',
+  'size' => '5627',
+)
+[ info ] [ RUN ] app\base\controller\Upload->img[ /Users/apple/git/huaqi/jxdzsw/application/base/controller/Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002342s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.005054s ]
+[ sql ] [ SQL ] INSERT INTO `cases` (`file`) VALUES ('/public/img/upload/20170927/6521724d0f51877509c06f0964b35ae7.png||comments (1).png') [ RunTime:0.003855s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:03:00+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/cases/ajax_edit?is_create=0&id=7
+[ info ] 127.0.0.1:4001/admin/cases/ajax_edit?is_create=0&id=7 [运行时间：0.071286s][吞吐率：14.03req/s] [内存消耗：2,528.58kb] [文件加载：44]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'ajax_edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.1:4001',
+  'accept' => '*/*',
+  'content-length' => '33',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+)
+[ info ] [ PARAM ] array (
+  'is_create' => '0',
+  'id' => '7',
+  'name' => 'adsfa',
+  'url' => 'asdfadsf',
+  'oper' => 'edit',
+)
+[ info ] [ RUN ] app\admin\controller\Cases->ajax_edit[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001961s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.004808s ]
+[ sql ] [ SQL ] UPDATE `cases`  SET `name`='adsfa',`url`='asdfadsf'  WHERE  `id` = 7 [ RunTime:0.002334s ]
+[ sql ] [ SQL ] SELECT * FROM `cases` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000491s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:03:02+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/cases/index
+[ info ] 127.0.0.1:4001/admin/cases/index [运行时间：0.020693s][吞吐率：48.33req/s] [内存消耗：1,593.19kb] [文件加载：36]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/product/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Cases->index[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ VIEW ] /Users/apple/git/huaqi/jxdzsw/application/admin/view/cases/index.html [ array (
+  0 => 'module',
+  1 => 'access_menu',
+  2 => 'menu',
+  3 => 'action',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-27T00:03:02+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/cases/ajax_fetch?_search=false&nd=1506441782704&rows=12&page=1&sidx=&sord=asc
+[ info ] 127.0.0.1:4001/admin/cases/ajax_fetch?_search=false&nd=1506441782704&rows=12&page=1&sidx=&sord=asc [运行时间：0.037822s][吞吐率：26.44req/s] [内存消耗：2,456.46kb] [文件加载：41]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'ajax_fetch',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  '_search' => 'false',
+  'nd' => '1506441782704',
+  'rows' => '12',
+  'page' => '1',
+  'sidx' => '',
+  'sord' => 'asc',
+)
+[ info ] [ RUN ] app\admin\controller\Cases->ajax_fetch[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000569s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.004149s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `cases` LIMIT 1 [ RunTime:0.000372s ]
+[ sql ] [ SQL ] SELECT * FROM `cases` ORDER BY id desc LIMIT 0,12 [ RunTime:0.000420s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:03:08+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/cases/ajax_edit
+[ info ] 127.0.0.1:4001/admin/cases/ajax_edit [运行时间：0.027807s][吞吐率：35.96req/s] [内存消耗：2,486.88kb] [文件加载：44]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'ajax_edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.1:4001',
+  'accept' => '*/*',
+  'content-length' => '13',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+)
+[ info ] [ PARAM ] array (
+  'oper' => 'del',
+  'id' => '3',
+)
+[ info ] [ RUN ] app\admin\controller\Cases->ajax_edit[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000509s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.004370s ]
+[ sql ] [ SQL ] DELETE FROM `cases`    WHERE  `id` = 3 [ RunTime:0.001758s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:03:08+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/cases/ajax_fetch?_search=false&nd=1506441788413&rows=12&page=1&sidx=&sord=asc
+[ info ] 127.0.0.1:4001/admin/cases/ajax_fetch?_search=false&nd=1506441788413&rows=12&page=1&sidx=&sord=asc [运行时间：0.041744s][吞吐率：23.96req/s] [内存消耗：2,455.66kb] [文件加载：41]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'ajax_fetch',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  '_search' => 'false',
+  'nd' => '1506441788413',
+  'rows' => '12',
+  'page' => '1',
+  'sidx' => '',
+  'sord' => 'asc',
+)
+[ info ] [ RUN ] app\admin\controller\Cases->ajax_fetch[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001991s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.006671s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `cases` LIMIT 1 [ RunTime:0.000309s ]
+[ sql ] [ SQL ] SELECT * FROM `cases` ORDER BY id desc LIMIT 0,12 [ RunTime:0.000440s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:03:10+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/cases/ajax_edit
+[ info ] 127.0.0.1:4001/admin/cases/ajax_edit [运行时间：0.031605s][吞吐率：31.64req/s] [内存消耗：2,486.88kb] [文件加载：44]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'ajax_edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.1:4001',
+  'accept' => '*/*',
+  'content-length' => '13',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+)
+[ info ] [ PARAM ] array (
+  'oper' => 'del',
+  'id' => '4',
+)
+[ info ] [ RUN ] app\admin\controller\Cases->ajax_edit[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002386s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.004213s ]
+[ sql ] [ SQL ] DELETE FROM `cases`    WHERE  `id` = 4 [ RunTime:0.001730s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:03:11+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/cases/ajax_fetch?_search=false&nd=1506441790884&rows=12&page=1&sidx=&sord=asc
+[ info ] 127.0.0.1:4001/admin/cases/ajax_fetch?_search=false&nd=1506441790884&rows=12&page=1&sidx=&sord=asc [运行时间：0.053201s][吞吐率：18.80req/s] [内存消耗：2,454.80kb] [文件加载：41]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'ajax_fetch',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  '_search' => 'false',
+  'nd' => '1506441790884',
+  'rows' => '12',
+  'page' => '1',
+  'sidx' => '',
+  'sord' => 'asc',
+)
+[ info ] [ RUN ] app\admin\controller\Cases->ajax_fetch[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006064s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.013446s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `cases` LIMIT 1 [ RunTime:0.000383s ]
+[ sql ] [ SQL ] SELECT * FROM `cases` ORDER BY id desc LIMIT 0,12 [ RunTime:0.000510s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:03:13+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/cases/ajax_edit
+[ info ] 127.0.0.1:4001/admin/cases/ajax_edit [运行时间：0.032410s][吞吐率：30.85req/s] [内存消耗：2,486.88kb] [文件加载：44]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'ajax_edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.1:4001',
+  'accept' => '*/*',
+  'content-length' => '13',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+)
+[ info ] [ PARAM ] array (
+  'oper' => 'del',
+  'id' => '5',
+)
+[ info ] [ RUN ] app\admin\controller\Cases->ajax_edit[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003291s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.004142s ]
+[ sql ] [ SQL ] DELETE FROM `cases`    WHERE  `id` = 5 [ RunTime:0.001569s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:03:13+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/cases/ajax_fetch?_search=false&nd=1506441793440&rows=12&page=1&sidx=&sord=asc
+[ info ] 127.0.0.1:4001/admin/cases/ajax_fetch?_search=false&nd=1506441793440&rows=12&page=1&sidx=&sord=asc [运行时间：0.038734s][吞吐率：25.82req/s] [内存消耗：2,453.93kb] [文件加载：41]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'ajax_fetch',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  '_search' => 'false',
+  'nd' => '1506441793440',
+  'rows' => '12',
+  'page' => '1',
+  'sidx' => '',
+  'sord' => 'asc',
+)
+[ info ] [ RUN ] app\admin\controller\Cases->ajax_fetch[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004305s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.007411s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `cases` LIMIT 1 [ RunTime:0.000380s ]
+[ sql ] [ SQL ] SELECT * FROM `cases` ORDER BY id desc LIMIT 0,12 [ RunTime:0.000332s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:03:16+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/cases/ajax_edit
+[ info ] 127.0.0.1:4001/admin/cases/ajax_edit [运行时间：0.030261s][吞吐率：33.05req/s] [内存消耗：2,486.88kb] [文件加载：44]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'ajax_edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.1:4001',
+  'accept' => '*/*',
+  'content-length' => '13',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+)
+[ info ] [ PARAM ] array (
+  'oper' => 'del',
+  'id' => '7',
+)
+[ info ] [ RUN ] app\admin\controller\Cases->ajax_edit[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002268s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.004267s ]
+[ sql ] [ SQL ] DELETE FROM `cases`    WHERE  `id` = 7 [ RunTime:0.001564s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:03:16+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/cases/ajax_fetch?_search=false&nd=1506441796520&rows=12&page=1&sidx=&sord=asc
+[ info ] 127.0.0.1:4001/admin/cases/ajax_fetch?_search=false&nd=1506441796520&rows=12&page=1&sidx=&sord=asc [运行时间：0.036818s][吞吐率：27.16req/s] [内存消耗：2,453.06kb] [文件加载：41]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'ajax_fetch',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  '_search' => 'false',
+  'nd' => '1506441796520',
+  'rows' => '12',
+  'page' => '1',
+  'sidx' => '',
+  'sord' => 'asc',
+)
+[ info ] [ RUN ] app\admin\controller\Cases->ajax_fetch[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001045s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.008040s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `cases` LIMIT 1 [ RunTime:0.000447s ]
+[ sql ] [ SQL ] SELECT * FROM `cases` ORDER BY id desc LIMIT 0,12 [ RunTime:0.000428s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:03:19+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/cases/ajax_edit
+[ info ] 127.0.0.1:4001/admin/cases/ajax_edit [运行时间：0.034057s][吞吐率：29.36req/s] [内存消耗：2,486.88kb] [文件加载：44]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'ajax_edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.1:4001',
+  'accept' => '*/*',
+  'content-length' => '13',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+)
+[ info ] [ PARAM ] array (
+  'oper' => 'del',
+  'id' => '6',
+)
+[ info ] [ RUN ] app\admin\controller\Cases->ajax_edit[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002224s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.006816s ]
+[ sql ] [ SQL ] DELETE FROM `cases`    WHERE  `id` = 6 [ RunTime:0.001693s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:03:19+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/cases/ajax_fetch?_search=false&nd=1506441799188&rows=12&page=1&sidx=&sord=asc
+[ info ] 127.0.0.1:4001/admin/cases/ajax_fetch?_search=false&nd=1506441799188&rows=12&page=1&sidx=&sord=asc [运行时间：0.036970s][吞吐率：27.05req/s] [内存消耗：2,451.84kb] [文件加载：41]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'ajax_fetch',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  '_search' => 'false',
+  'nd' => '1506441799188',
+  'rows' => '12',
+  'page' => '1',
+  'sidx' => '',
+  'sord' => 'asc',
+)
+[ info ] [ RUN ] app\admin\controller\Cases->ajax_fetch[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000518s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.005963s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `cases` LIMIT 1 [ RunTime:0.000799s ]
+[ sql ] [ SQL ] SELECT * FROM `cases` ORDER BY id desc LIMIT 0,12 [ RunTime:0.000467s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:03:32+08:00 ] 127.0.0.1 127.0.0.1 POST /base/upload/img?type=cases&is_create=1
+[ info ] 127.0.0.1:4001/base/upload/img?type=cases&is_create=1 [运行时间：3.284188s][吞吐率：0.30req/s] [内存消耗：2,426.66kb] [文件加载：38]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'base',
+    1 => 'upload',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryrNKeGQWpKFOIaVwG',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'origin' => 'http://127.0.0.1:4001',
+  'content-length' => '6477',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'image/png',
+  'is_create' => '1',
+  'id' => 'WU_FILE_0',
+  'name' => 'comments (2).png',
+  'lastModifiedDate' => 'Fri Sep 08 2017 10:30:23 GMT+0800 (CST)',
+  'size' => '5746',
+)
+[ info ] [ RUN ] app\base\controller\Upload->img[ /Users/apple/git/huaqi/jxdzsw/application/base/controller/Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002762s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.009054s ]
+[ sql ] [ SQL ] INSERT INTO `cases` (`file`) VALUES ('/public/img/upload/20170927/c21a15fd37d586fb86414fb085ee44ac.png||comments (2).png') [ RunTime:0.001552s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:03:33+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/cases/ajax_edit?is_create=0&id=8
+[ info ] 127.0.0.1:4001/admin/cases/ajax_edit?is_create=0&id=8 [运行时间：0.046406s][吞吐率：21.55req/s] [内存消耗：2,528.56kb] [文件加载：44]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'ajax_edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.1:4001',
+  'accept' => '*/*',
+  'content-length' => '28',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+)
+[ info ] [ PARAM ] array (
+  'is_create' => '0',
+  'id' => '8',
+  'name' => 'adsf',
+  'url' => 'adsc',
+  'oper' => 'edit',
+)
+[ info ] [ RUN ] app\admin\controller\Cases->ajax_edit[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002801s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.004263s ]
+[ sql ] [ SQL ] UPDATE `cases`  SET `name`='adsf',`url`='adsc'  WHERE  `id` = 8 [ RunTime:0.002761s ]
+[ sql ] [ SQL ] SELECT * FROM `cases` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000601s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:03:34+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/cases/index
+[ info ] 127.0.0.1:4001/admin/cases/index [运行时间：0.022144s][吞吐率：45.16req/s] [内存消耗：1,593.19kb] [文件加载：36]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/product/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Cases->index[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ VIEW ] /Users/apple/git/huaqi/jxdzsw/application/admin/view/cases/index.html [ array (
+  0 => 'module',
+  1 => 'access_menu',
+  2 => 'menu',
+  3 => 'action',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-27T00:03:35+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/cases/ajax_fetch?_search=false&nd=1506441815588&rows=12&page=1&sidx=&sord=asc
+[ info ] 127.0.0.1:4001/admin/cases/ajax_fetch?_search=false&nd=1506441815588&rows=12&page=1&sidx=&sord=asc [运行时间：0.051558s][吞吐率：19.40req/s] [内存消耗：2,453.13kb] [文件加载：41]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'ajax_fetch',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  '_search' => 'false',
+  'nd' => '1506441815588',
+  'rows' => '12',
+  'page' => '1',
+  'sidx' => '',
+  'sord' => 'asc',
+)
+[ info ] [ RUN ] app\admin\controller\Cases->ajax_fetch[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000624s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.006069s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `cases` LIMIT 1 [ RunTime:0.000489s ]
+[ sql ] [ SQL ] SELECT * FROM `cases` ORDER BY id desc LIMIT 0,12 [ RunTime:0.000461s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:05:51+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/cases/index
+[ info ] 127.0.0.1:4001/admin/cases/index [运行时间：0.065860s][吞吐率：15.18req/s] [内存消耗：1,593.19kb] [文件加载：36]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/product/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Cases->index[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ VIEW ] /Users/apple/git/huaqi/jxdzsw/application/admin/view/cases/index.html [ array (
+  0 => 'module',
+  1 => 'access_menu',
+  2 => 'menu',
+  3 => 'action',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-27T00:05:52+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/cases/ajax_fetch?_search=false&nd=1506441952057&rows=12&page=1&sidx=&sord=asc
+[ info ] 127.0.0.1:4001/admin/cases/ajax_fetch?_search=false&nd=1506441952057&rows=12&page=1&sidx=&sord=asc [运行时间：0.121121s][吞吐率：8.26req/s] [内存消耗：2,453.13kb] [文件加载：41]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'ajax_fetch',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  '_search' => 'false',
+  'nd' => '1506441952057',
+  'rows' => '12',
+  'page' => '1',
+  'sidx' => '',
+  'sord' => 'asc',
+)
+[ info ] [ RUN ] app\admin\controller\Cases->ajax_fetch[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004178s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.016095s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `cases` LIMIT 1 [ RunTime:0.000498s ]
+[ sql ] [ SQL ] SELECT * FROM `cases` ORDER BY id desc LIMIT 0,12 [ RunTime:0.000413s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:06:06+08:00 ] 127.0.0.1 127.0.0.1 POST /base/upload/img?type=cases&is_create=1
+[ info ] 127.0.0.1:4001/base/upload/img?type=cases&is_create=1 [运行时间：0.098895s][吞吐率：10.11req/s] [内存消耗：2,424.63kb] [文件加载：38]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'base',
+    1 => 'upload',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryr1nrRRLUiWA1mdXh',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'origin' => 'http://127.0.0.1:4001',
+  'content-length' => '6477',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'image/png',
+  'is_create' => '1',
+  'id' => 'WU_FILE_0',
+  'name' => 'comments (2).png',
+  'lastModifiedDate' => 'Fri Sep 08 2017 10:30:23 GMT+0800 (CST)',
+  'size' => '5746',
+)
+[ info ] [ RUN ] app\base\controller\Upload->img[ /Users/apple/git/huaqi/jxdzsw/application/base/controller/Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002270s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.005631s ]
+[ sql ] [ SQL ] INSERT INTO `cases` (`file`) VALUES ('/public/img/upload/20170927/11f0e257ca7a65592ace81f1fb125cb9.png||comments (2).png') [ RunTime:0.004909s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:06:07+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/cases/ajax_edit?is_create=0&id=9
+[ info ] 127.0.0.1:4001/admin/cases/ajax_edit?is_create=0&id=9 [运行时间：0.045297s][吞吐率：22.08req/s] [内存消耗：2,528.57kb] [文件加载：44]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'ajax_edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.1:4001',
+  'accept' => '*/*',
+  'content-length' => '32',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+)
+[ info ] [ PARAM ] array (
+  'is_create' => '0',
+  'id' => '9',
+  'name' => 'sdcddd',
+  'url' => 'cccccc',
+  'oper' => 'edit',
+)
+[ info ] [ RUN ] app\admin\controller\Cases->ajax_edit[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002103s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.004632s ]
+[ sql ] [ SQL ] UPDATE `cases`  SET `name`='sdcddd',`url`='cccccc'  WHERE  `id` = 9 [ RunTime:0.001649s ]
+[ sql ] [ SQL ] SELECT * FROM `cases` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000431s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:06:10+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/cases/index
+[ info ] 127.0.0.1:4001/admin/cases/index [运行时间：0.018879s][吞吐率：52.97req/s] [内存消耗：1,593.19kb] [文件加载：36]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/product/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Cases->index[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ VIEW ] /Users/apple/git/huaqi/jxdzsw/application/admin/view/cases/index.html [ array (
+  0 => 'module',
+  1 => 'access_menu',
+  2 => 'menu',
+  3 => 'action',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-27T00:06:10+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/cases/ajax_fetch?_search=false&nd=1506441970892&rows=12&page=1&sidx=&sord=asc
+[ info ] 127.0.0.1:4001/admin/cases/ajax_fetch?_search=false&nd=1506441970892&rows=12&page=1&sidx=&sord=asc [运行时间：0.053711s][吞吐率：18.62req/s] [内存消耗：2,453.95kb] [文件加载：41]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'ajax_fetch',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  '_search' => 'false',
+  'nd' => '1506441970892',
+  'rows' => '12',
+  'page' => '1',
+  'sidx' => '',
+  'sord' => 'asc',
+)
+[ info ] [ RUN ] app\admin\controller\Cases->ajax_fetch[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002501s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.013462s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `cases` LIMIT 1 [ RunTime:0.000505s ]
+[ sql ] [ SQL ] SELECT * FROM `cases` ORDER BY id desc LIMIT 0,12 [ RunTime:0.000373s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:06:56+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/cases/index
+[ info ] 127.0.0.1:4001/admin/cases/index [运行时间：0.045663s][吞吐率：21.90req/s] [内存消耗：1,593.19kb] [文件加载：36]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/product/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Cases->index[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ VIEW ] /Users/apple/git/huaqi/jxdzsw/application/admin/view/cases/index.html [ array (
+  0 => 'module',
+  1 => 'access_menu',
+  2 => 'menu',
+  3 => 'action',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-27T00:06:57+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/cases/ajax_fetch?_search=false&nd=1506442017313&rows=12&page=1&sidx=&sord=asc
+[ info ] 127.0.0.1:4001/admin/cases/ajax_fetch?_search=false&nd=1506442017313&rows=12&page=1&sidx=&sord=asc [运行时间：0.044337s][吞吐率：22.55req/s] [内存消耗：2,453.95kb] [文件加载：41]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'ajax_fetch',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  '_search' => 'false',
+  'nd' => '1506442017313',
+  'rows' => '12',
+  'page' => '1',
+  'sidx' => '',
+  'sord' => 'asc',
+)
+[ info ] [ RUN ] app\admin\controller\Cases->ajax_fetch[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000536s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.008416s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `cases` LIMIT 1 [ RunTime:0.000445s ]
+[ sql ] [ SQL ] SELECT * FROM `cases` ORDER BY id desc LIMIT 0,12 [ RunTime:0.000399s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:07:07+08:00 ] 127.0.0.1 127.0.0.1 POST /base/upload/img?type=cases&is_create=1
+[ info ] 127.0.0.1:4001/base/upload/img?type=cases&is_create=1 [运行时间：0.035903s][吞吐率：27.85req/s] [内存消耗：2,424.63kb] [文件加载：38]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'base',
+    1 => 'upload',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryvbMWiccF0aJUyiTv',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'origin' => 'http://127.0.0.1:4001',
+  'content-length' => '6477',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'image/png',
+  'is_create' => '1',
+  'id' => 'WU_FILE_0',
+  'name' => 'comments (2).png',
+  'lastModifiedDate' => 'Fri Sep 08 2017 10:30:23 GMT+0800 (CST)',
+  'size' => '5746',
+)
+[ info ] [ RUN ] app\base\controller\Upload->img[ /Users/apple/git/huaqi/jxdzsw/application/base/controller/Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000546s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.005417s ]
+[ sql ] [ SQL ] INSERT INTO `cases` (`file`) VALUES ('/public/img/upload/20170927/0de49ded789a89800d374604d1407776.png||comments (2).png') [ RunTime:0.002169s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:07:08+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/cases/ajax_edit?is_create=0&id=10
+[ info ] 127.0.0.1:4001/admin/cases/ajax_edit?is_create=0&id=10 [运行时间：0.047420s][吞吐率：21.09req/s] [内存消耗：2,528.56kb] [文件加载：44]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'ajax_edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.1:4001',
+  'accept' => '*/*',
+  'content-length' => '26',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+)
+[ info ] [ PARAM ] array (
+  'is_create' => '0',
+  'id' => '10',
+  'name' => '111',
+  'url' => '222',
+  'oper' => 'edit',
+)
+[ info ] [ RUN ] app\admin\controller\Cases->ajax_edit[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002221s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.006201s ]
+[ sql ] [ SQL ] UPDATE `cases`  SET `name`='111',`url`='222'  WHERE  `id` = 10 [ RunTime:0.001705s ]
+[ sql ] [ SQL ] SELECT * FROM `cases` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000423s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:07:11+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/cases/index
+[ info ] 127.0.0.1:4001/admin/cases/index [运行时间：0.024930s][吞吐率：40.11req/s] [内存消耗：1,593.19kb] [文件加载：36]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/product/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Cases->index[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ VIEW ] /Users/apple/git/huaqi/jxdzsw/application/admin/view/cases/index.html [ array (
+  0 => 'module',
+  1 => 'access_menu',
+  2 => 'menu',
+  3 => 'action',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-27T00:07:12+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/cases/ajax_fetch?_search=false&nd=1506442032548&rows=12&page=1&sidx=&sord=asc
+[ info ] 127.0.0.1:4001/admin/cases/ajax_fetch?_search=false&nd=1506442032548&rows=12&page=1&sidx=&sord=asc [运行时间：0.052607s][吞吐率：19.01req/s] [内存消耗：2,454.75kb] [文件加载：41]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'ajax_fetch',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  '_search' => 'false',
+  'nd' => '1506442032548',
+  'rows' => '12',
+  'page' => '1',
+  'sidx' => '',
+  'sord' => 'asc',
+)
+[ info ] [ RUN ] app\admin\controller\Cases->ajax_fetch[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002912s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.004933s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `cases` LIMIT 1 [ RunTime:0.000415s ]
+[ sql ] [ SQL ] SELECT * FROM `cases` ORDER BY id desc LIMIT 0,12 [ RunTime:0.000577s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:07:23+08:00 ] 127.0.0.1 127.0.0.1 POST /base/upload/img?type=cases&is_create=1
+[ info ] 127.0.0.1:4001/base/upload/img?type=cases&is_create=1 [运行时间：0.053522s][吞吐率：18.68req/s] [内存消耗：2,424.63kb] [文件加载：38]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'base',
+    1 => 'upload',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryS7IsX25dgEScYnrL',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'origin' => 'http://127.0.0.1:4001',
+  'content-length' => '6477',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'image/png',
+  'is_create' => '1',
+  'id' => 'WU_FILE_0',
+  'name' => 'comments (2).png',
+  'lastModifiedDate' => 'Fri Sep 08 2017 10:30:23 GMT+0800 (CST)',
+  'size' => '5746',
+)
+[ info ] [ RUN ] app\base\controller\Upload->img[ /Users/apple/git/huaqi/jxdzsw/application/base/controller/Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002011s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.005248s ]
+[ sql ] [ SQL ] INSERT INTO `cases` (`file`) VALUES ('/public/img/upload/20170927/34a757d294e3339498592e68b67df5f8.png||comments (2).png') [ RunTime:0.001575s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:07:24+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/cases/ajax_edit?is_create=0&id=11
+[ info ] 127.0.0.1:4001/admin/cases/ajax_edit?is_create=0&id=11 [运行时间：0.034454s][吞吐率：29.02req/s] [内存消耗：2,528.56kb] [文件加载：44]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'ajax_edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.1:4001',
+  'accept' => '*/*',
+  'content-length' => '26',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+)
+[ info ] [ PARAM ] array (
+  'is_create' => '0',
+  'id' => '11',
+  'name' => 'dsfsdf',
+  'url' => '',
+  'oper' => 'edit',
+)
+[ info ] [ RUN ] app\admin\controller\Cases->ajax_edit[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004143s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.004650s ]
+[ sql ] [ SQL ] UPDATE `cases`  SET `name`='dsfsdf',`url`=''  WHERE  `id` = 11 [ RunTime:0.001415s ]
+[ sql ] [ SQL ] SELECT * FROM `cases` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000390s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:07:58+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/cases/index
+[ info ] 127.0.0.1:4001/admin/cases/index [运行时间：0.063222s][吞吐率：15.82req/s] [内存消耗：1,831.72kb] [文件加载：38]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/product/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Cases->index[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ VIEW ] /Users/apple/git/huaqi/jxdzsw/application/admin/view/cases/index.html [ array (
+  0 => 'module',
+  1 => 'access_menu',
+  2 => 'menu',
+  3 => 'action',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-27T00:07:59+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/cases/ajax_fetch?_search=false&nd=1506442079431&rows=12&page=1&sidx=&sord=asc
+[ info ] 127.0.0.1:4001/admin/cases/ajax_fetch?_search=false&nd=1506442079431&rows=12&page=1&sidx=&sord=asc [运行时间：0.055872s][吞吐率：17.90req/s] [内存消耗：2,455.61kb] [文件加载：41]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'ajax_fetch',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  '_search' => 'false',
+  'nd' => '1506442079431',
+  'rows' => '12',
+  'page' => '1',
+  'sidx' => '',
+  'sord' => 'asc',
+)
+[ info ] [ RUN ] app\admin\controller\Cases->ajax_fetch[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003366s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.007141s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `cases` LIMIT 1 [ RunTime:0.000760s ]
+[ sql ] [ SQL ] SELECT * FROM `cases` ORDER BY id desc LIMIT 0,12 [ RunTime:0.000468s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:08:10+08:00 ] 127.0.0.1 127.0.0.1 POST /base/upload/img?type=cases&is_create=1
+[ info ] 127.0.0.1:4001/base/upload/img?type=cases&is_create=1 [运行时间：0.103535s][吞吐率：9.66req/s] [内存消耗：2,424.63kb] [文件加载：38]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'base',
+    1 => 'upload',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryUDBkJCF4sbwqQuTz',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'origin' => 'http://127.0.0.1:4001',
+  'content-length' => '5747',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'image/png',
+  'is_create' => '1',
+  'id' => 'WU_FILE_0',
+  'name' => 'pay_icon_2.png',
+  'lastModifiedDate' => 'Wed Aug 23 2017 11:01:20 GMT+0800 (CST)',
+  'size' => '5020',
+)
+[ info ] [ RUN ] app\base\controller\Upload->img[ /Users/apple/git/huaqi/jxdzsw/application/base/controller/Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002081s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.004581s ]
+[ sql ] [ SQL ] INSERT INTO `cases` (`file`) VALUES ('/public/img/upload/20170927/2394e968c0d34cf2b385590ca78d4abe.png||pay_icon_2.png') [ RunTime:0.003110s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:08:11+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/cases/ajax_edit?is_create=0&id=12
+[ info ] 127.0.0.1:4001/admin/cases/ajax_edit?is_create=0&id=12 [运行时间：0.047828s][吞吐率：20.91req/s] [内存消耗：2,528.51kb] [文件加载：44]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'ajax_edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.1:4001',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+)
+[ info ] [ PARAM ] array (
+  'is_create' => '0',
+  'id' => '12',
+  'name' => '',
+  'url' => '',
+  'oper' => 'edit',
+)
+[ info ] [ RUN ] app\admin\controller\Cases->ajax_edit[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002152s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.008575s ]
+[ sql ] [ SQL ] UPDATE `cases`  SET `name`='',`url`=''  WHERE  `id` = 12 [ RunTime:0.001607s ]
+[ sql ] [ SQL ] SELECT * FROM `cases` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000446s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:08:20+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/cases/index
+[ info ] 127.0.0.1:4001/admin/cases/index [运行时间：0.018286s][吞吐率：54.69req/s] [内存消耗：1,593.19kb] [文件加载：36]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/product/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Cases->index[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ VIEW ] /Users/apple/git/huaqi/jxdzsw/application/admin/view/cases/index.html [ array (
+  0 => 'module',
+  1 => 'access_menu',
+  2 => 'menu',
+  3 => 'action',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-27T00:08:21+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/cases/ajax_fetch?_search=false&nd=1506442101110&rows=12&page=1&sidx=&sord=asc
+[ info ] 127.0.0.1:4001/admin/cases/ajax_fetch?_search=false&nd=1506442101110&rows=12&page=1&sidx=&sord=asc [运行时间：0.054286s][吞吐率：18.42req/s] [内存消耗：2,456.38kb] [文件加载：41]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'ajax_fetch',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  '_search' => 'false',
+  'nd' => '1506442101110',
+  'rows' => '12',
+  'page' => '1',
+  'sidx' => '',
+  'sord' => 'asc',
+)
+[ info ] [ RUN ] app\admin\controller\Cases->ajax_fetch[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002633s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.012086s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `cases` LIMIT 1 [ RunTime:0.001456s ]
+[ sql ] [ SQL ] SELECT * FROM `cases` ORDER BY id desc LIMIT 0,12 [ RunTime:0.000392s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:09:44+08:00 ] 127.0.0.1 127.0.0.1 POST /base/upload/img?type=cases&is_create=1
+[ info ] 127.0.0.1:4001/base/upload/img?type=cases&is_create=1 [运行时间：73.949163s][吞吐率：0.01req/s] [内存消耗：2,434.38kb] [文件加载：38]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'base',
+    1 => 'upload',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryX72Z0wMEfnRbBuIQ',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'origin' => 'http://127.0.0.1:4001',
+  'content-length' => '6170',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'image/png',
+  'is_create' => '1',
+  'id' => 'WU_FILE_0',
+  'name' => 'comments.png',
+  'lastModifiedDate' => 'Fri Sep 08 2017 10:09:40 GMT+0800 (CST)',
+  'size' => '5447',
+)
+[ info ] [ RUN ] app\base\controller\Upload->img[ /Users/apple/git/huaqi/jxdzsw/application/base/controller/Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000546s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.008151s ]
+[ sql ] [ SQL ] INSERT INTO `cases` (`file`) VALUES ('/public/img/upload/20170927/1781d6896ce4d7f3f5c72fcb4989e455.png||comments.png') [ RunTime:0.002395s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:09:46+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/cases/index
+[ info ] 127.0.0.1:4001/admin/cases/index [运行时间：0.062288s][吞吐率：16.05req/s] [内存消耗：1,831.72kb] [文件加载：38]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/product/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Cases->index[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ VIEW ] /Users/apple/git/huaqi/jxdzsw/application/admin/view/cases/index.html [ array (
+  0 => 'module',
+  1 => 'access_menu',
+  2 => 'menu',
+  3 => 'action',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-27T00:09:47+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/cases/ajax_fetch?_search=false&nd=1506442187491&rows=12&page=1&sidx=&sord=asc
+[ info ] 127.0.0.1:4001/admin/cases/ajax_fetch?_search=false&nd=1506442187491&rows=12&page=1&sidx=&sord=asc [运行时间：0.030544s][吞吐率：32.74req/s] [内存消耗：2,457.14kb] [文件加载：41]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'ajax_fetch',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  '_search' => 'false',
+  'nd' => '1506442187491',
+  'rows' => '12',
+  'page' => '1',
+  'sidx' => '',
+  'sord' => 'asc',
+)
+[ info ] [ RUN ] app\admin\controller\Cases->ajax_fetch[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000485s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.005460s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `cases` LIMIT 1 [ RunTime:0.000524s ]
+[ sql ] [ SQL ] SELECT * FROM `cases` ORDER BY id desc LIMIT 0,12 [ RunTime:0.000441s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:09:55+08:00 ] 127.0.0.1 127.0.0.1 GET /public/css/bootstrap.min.css.map
+[ info ] 127.0.0.1:4001/public/css/bootstrap.min.css.map [运行时间：0.024159s][吞吐率：41.39req/s] [内存消耗：1,274.30kb] [文件加载：27]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'css',
+    2 => 'bootstrap.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-27T00:10:07+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/cases/index
+[ info ] 127.0.0.1:4001/admin/cases/index [运行时间：0.056016s][吞吐率：17.85req/s] [内存消耗：1,591.16kb] [文件加载：36]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.1.2 Safari/603.3.8',
+  'cookie' => 'Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506299371; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1503709310,1506299371; PHPSESSID=q4npbkd5ad7m3t1u6mvdmlssd2',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Cases->index[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ VIEW ] /Users/apple/git/huaqi/jxdzsw/application/admin/view/cases/index.html [ array (
+  0 => 'module',
+  1 => 'access_menu',
+  2 => 'menu',
+  3 => 'action',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-27T00:10:08+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/cases/ajax_fetch?_search=false&nd=1506442208499&rows=12&page=1&sidx=&sord=asc
+[ info ] 127.0.0.1:4001/admin/cases/ajax_fetch?_search=false&nd=1506442208499&rows=12&page=1&sidx=&sord=asc [运行时间：0.114234s][吞吐率：8.75req/s] [内存消耗：2,455.93kb] [文件加载：41]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'ajax_fetch',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.1.2 Safari/603.3.8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506299371; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1503709310,1506299371; PHPSESSID=q4npbkd5ad7m3t1u6mvdmlssd2',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  '_search' => 'false',
+  'nd' => '1506442208499',
+  'rows' => '12',
+  'page' => '1',
+  'sidx' => '',
+  'sord' => 'asc',
+)
+[ info ] [ RUN ] app\admin\controller\Cases->ajax_fetch[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003989s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.012218s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `cases` LIMIT 1 [ RunTime:0.000540s ]
+[ sql ] [ SQL ] SELECT * FROM `cases` ORDER BY id desc LIMIT 0,12 [ RunTime:0.000505s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:10:13+08:00 ] 127.0.0.1 127.0.0.1 GET /public/css/bootstrap.min.css.map
+[ info ] 127.0.0.1:4001/public/css/bootstrap.min.css.map [运行时间：0.034696s][吞吐率：28.82req/s] [内存消耗：1,273.92kb] [文件加载：27]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'css',
+    2 => 'bootstrap.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.1.2 Safari/603.3.8',
+  'cookie' => 'Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506299371; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1503709310,1506299371; PHPSESSID=q4npbkd5ad7m3t1u6mvdmlssd2',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-27T00:10:29+08:00 ] 127.0.0.1 127.0.0.1 POST /base/upload/img?type=cases&is_create=1
+[ info ] 127.0.0.1:4001/base/upload/img?type=cases&is_create=1 [运行时间：3.209541s][吞吐率：0.31req/s] [内存消耗：2,428.48kb] [文件加载：38]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'base',
+    1 => 'upload',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '6462',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.1.2 Safari/603.3.8',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506299371; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1503709310,1506299371; PHPSESSID=q4npbkd5ad7m3t1u6mvdmlssd2',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://127.0.0.1:4001',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryKWOUft6DHrVuakjo',
+  'host' => '127.0.0.1:4001',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'image/png',
+  'is_create' => '1',
+  'id' => 'WU_FILE_0',
+  'name' => 'comments (2).png',
+  'lastModifiedDate' => '2017/9/27 上午12:10:26',
+  'size' => '5746',
+)
+[ info ] [ RUN ] app\base\controller\Upload->img[ /Users/apple/git/huaqi/jxdzsw/application/base/controller/Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002237s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.005007s ]
+[ sql ] [ SQL ] INSERT INTO `cases` (`file`) VALUES ('/public/img/upload/20170927/967e3ef9150155e2834b121ebed4c11a.png||comments (2).png') [ RunTime:0.003623s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:11:26+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/cases/index
+[ info ] 127.0.0.1:4001/admin/cases/index [运行时间：0.149056s][吞吐率：6.71req/s] [内存消耗：1,831.72kb] [文件加载：38]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/product/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Cases->index[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ VIEW ] /Users/apple/git/huaqi/jxdzsw/application/admin/view/cases/index.html [ array (
+  0 => 'module',
+  1 => 'access_menu',
+  2 => 'menu',
+  3 => 'action',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-27T00:11:28+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/cases/ajax_fetch?_search=false&nd=1506442288115&rows=12&page=1&sidx=&sord=asc
+[ info ] 127.0.0.1:4001/admin/cases/ajax_fetch?_search=false&nd=1506442288115&rows=12&page=1&sidx=&sord=asc [运行时间：0.093523s][吞吐率：10.69req/s] [内存消耗：2,457.94kb] [文件加载：41]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'ajax_fetch',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  '_search' => 'false',
+  'nd' => '1506442288115',
+  'rows' => '12',
+  'page' => '1',
+  'sidx' => '',
+  'sord' => 'asc',
+)
+[ info ] [ RUN ] app\admin\controller\Cases->ajax_fetch[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004465s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.007747s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `cases` LIMIT 1 [ RunTime:0.000509s ]
+[ sql ] [ SQL ] SELECT * FROM `cases` ORDER BY id desc LIMIT 0,12 [ RunTime:0.000801s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:11:39+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/cases/index
+[ info ] 127.0.0.1:4001/admin/cases/index [运行时间：0.072008s][吞吐率：13.89req/s] [内存消耗：1,591.16kb] [文件加载：36]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.1.2 Safari/603.3.8',
+  'cookie' => 'Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506299371; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1503709310,1506299371; PHPSESSID=q4npbkd5ad7m3t1u6mvdmlssd2',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Cases->index[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ VIEW ] /Users/apple/git/huaqi/jxdzsw/application/admin/view/cases/index.html [ array (
+  0 => 'module',
+  1 => 'access_menu',
+  2 => 'menu',
+  3 => 'action',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-27T00:11:39+08:00 ] 127.0.0.1 127.0.0.1 GET /public/css/bootstrap.min.css.map
+[ info ] 127.0.0.1:4001/public/css/bootstrap.min.css.map [运行时间：0.040345s][吞吐率：24.79req/s] [内存消耗：1,273.92kb] [文件加载：27]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'css',
+    2 => 'bootstrap.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.1.2 Safari/603.3.8',
+  'cookie' => 'Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506299371; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1503709310,1506299371; PHPSESSID=q4npbkd5ad7m3t1u6mvdmlssd2',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-27T00:11:40+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/cases/ajax_fetch?_search=false&nd=1506442300027&rows=12&page=1&sidx=&sord=asc
+[ info ] 127.0.0.1:4001/admin/cases/ajax_fetch?_search=false&nd=1506442300027&rows=12&page=1&sidx=&sord=asc [运行时间：0.098930s][吞吐率：10.11req/s] [内存消耗：2,456.73kb] [文件加载：41]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'ajax_fetch',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.1.2 Safari/603.3.8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506299371; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1503709310,1506299371; PHPSESSID=q4npbkd5ad7m3t1u6mvdmlssd2',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  '_search' => 'false',
+  'nd' => '1506442300027',
+  'rows' => '12',
+  'page' => '1',
+  'sidx' => '',
+  'sord' => 'asc',
+)
+[ info ] [ RUN ] app\admin\controller\Cases->ajax_fetch[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015208s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.014536s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `cases` LIMIT 1 [ RunTime:0.000673s ]
+[ sql ] [ SQL ] SELECT * FROM `cases` ORDER BY id desc LIMIT 0,12 [ RunTime:0.000612s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:11:53+08:00 ] 127.0.0.1 127.0.0.1 POST /base/upload/img?type=cases&is_create=1
+[ info ] 127.0.0.1:4001/base/upload/img?type=cases&is_create=1 [运行时间：4.953635s][吞吐率：0.20req/s] [内存消耗：2,428.48kb] [文件加载：38]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'base',
+    1 => 'upload',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '6155',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.1.2 Safari/603.3.8',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506299371; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1503709310,1506299371; PHPSESSID=q4npbkd5ad7m3t1u6mvdmlssd2',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://127.0.0.1:4001',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryJckaF4xU1gOdpAxN',
+  'host' => '127.0.0.1:4001',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'image/png',
+  'is_create' => '1',
+  'id' => 'WU_FILE_0',
+  'name' => 'comments.png',
+  'lastModifiedDate' => '2017/9/27 上午12:11:48',
+  'size' => '5447',
+)
+[ info ] [ RUN ] app\base\controller\Upload->img[ /Users/apple/git/huaqi/jxdzsw/application/base/controller/Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002849s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.009105s ]
+[ sql ] [ SQL ] INSERT INTO `cases` (`file`) VALUES ('/public/img/upload/20170927/b9ca7e217bfc4c26485f8c5242462c89.png||comments.png') [ RunTime:0.004990s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:11:55+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/cases/ajax_edit?is_create=0&id=15
+[ info ] 127.0.0.1:4001/admin/cases/ajax_edit?is_create=0&id=15 [运行时间：0.048562s][吞吐率：20.59req/s] [内存消耗：2,527.34kb] [文件加载：44]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'ajax_edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506299371; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1503709310,1506299371; PHPSESSID=q4npbkd5ad7m3t1u6mvdmlssd2',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.1.2 Safari/603.3.8',
+  'connection' => 'keep-alive',
+  'content-length' => '23',
+  'origin' => 'http://127.0.0.1:4001',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'host' => '127.0.0.1:4001',
+)
+[ info ] [ PARAM ] array (
+  'is_create' => '0',
+  'id' => '15',
+  'name' => 'dsf',
+  'url' => '',
+  'oper' => 'edit',
+)
+[ info ] [ RUN ] app\admin\controller\Cases->ajax_edit[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000630s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.006406s ]
+[ sql ] [ SQL ] UPDATE `cases`  SET `name`='dsf',`url`=''  WHERE  `id` = 15 [ RunTime:0.001809s ]
+[ sql ] [ SQL ] SELECT * FROM `cases` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000596s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:18:08+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/cases/index
+[ info ] 127.0.0.1:4001/admin/cases/index [运行时间：0.066905s][吞吐率：14.95req/s] [内存消耗：1,592.39kb] [文件加载：36]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.1.2 Safari/603.3.8',
+  'cookie' => 'Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506299371; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1503709310,1506299371; PHPSESSID=q4npbkd5ad7m3t1u6mvdmlssd2',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Cases->index[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ VIEW ] /Users/apple/git/huaqi/jxdzsw/application/admin/view/cases/index.html [ array (
+  0 => 'module',
+  1 => 'access_menu',
+  2 => 'menu',
+  3 => 'action',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-27T00:18:08+08:00 ] 127.0.0.1 127.0.0.1 GET /public/css/bootstrap.min.css.map
+[ info ] 127.0.0.1:4001/public/css/bootstrap.min.css.map [运行时间：0.033027s][吞吐率：30.28req/s] [内存消耗：1,275.07kb] [文件加载：27]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'css',
+    2 => 'bootstrap.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.1.2 Safari/603.3.8',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506299371; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1503709310,1506299371; PHPSESSID=q4npbkd5ad7m3t1u6mvdmlssd2',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-27T00:18:08+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/cases/ajax_fetch?_search=false&nd=1506442688402&rows=12&page=1&sidx=&sord=asc
+[ info ] 127.0.0.1:4001/admin/cases/ajax_fetch?_search=false&nd=1506442688402&rows=12&page=1&sidx=&sord=asc [运行时间：0.100084s][吞吐率：9.99req/s] [内存消耗：2,458.89kb] [文件加载：41]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'ajax_fetch',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.1.2 Safari/603.3.8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506299371; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1503709310,1506299371; PHPSESSID=q4npbkd5ad7m3t1u6mvdmlssd2',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  '_search' => 'false',
+  'nd' => '1506442688402',
+  'rows' => '12',
+  'page' => '1',
+  'sidx' => '',
+  'sord' => 'asc',
+)
+[ info ] [ RUN ] app\admin\controller\Cases->ajax_fetch[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001400s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.044780s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `cases` LIMIT 1 [ RunTime:0.000459s ]
+[ sql ] [ SQL ] SELECT * FROM `cases` ORDER BY id desc LIMIT 0,12 [ RunTime:0.000592s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:18:18+08:00 ] 127.0.0.1 127.0.0.1 POST /base/upload/img?type=cases&is_create=1
+[ info ] 127.0.0.1:4001/base/upload/img?type=cases&is_create=1 [运行时间：0.045328s][吞吐率：22.06req/s] [内存消耗：2,424.37kb] [文件加载：38]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'base',
+    1 => 'upload',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '6462',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.1.2 Safari/603.3.8',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506299371; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1503709310,1506299371; PHPSESSID=q4npbkd5ad7m3t1u6mvdmlssd2',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://127.0.0.1:4001',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryP9PAAzlTctoYBFu1',
+  'host' => '127.0.0.1:4001',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'image/png',
+  'is_create' => '1',
+  'id' => 'WU_FILE_0',
+  'name' => 'comments (2).png',
+  'lastModifiedDate' => '2017/9/27 上午12:18:18',
+  'size' => '5746',
+)
+[ info ] [ RUN ] app\base\controller\Upload->img[ /Users/apple/git/huaqi/jxdzsw/application/base/controller/Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000641s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.005088s ]
+[ sql ] [ SQL ] INSERT INTO `cases` (`file`) VALUES ('/public/img/upload/20170927/ab7dc75568f4cad3b0d5e38d0acc4865.png||comments (2).png') [ RunTime:0.002964s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:18:19+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/cases/ajax_edit?is_create=0&id=16
+[ info ] 127.0.0.1:4001/admin/cases/ajax_edit?is_create=0&id=16 [运行时间：0.050779s][吞吐率：19.69req/s] [内存消耗：2,528.58kb] [文件加载：44]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'ajax_edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506299371; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1503709310,1506299371; PHPSESSID=q4npbkd5ad7m3t1u6mvdmlssd2',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.1.2 Safari/603.3.8',
+  'connection' => 'keep-alive',
+  'content-length' => '23',
+  'origin' => 'http://127.0.0.1:4001',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'host' => '127.0.0.1:4001',
+)
+[ info ] [ PARAM ] array (
+  'is_create' => '0',
+  'id' => '16',
+  'name' => '111',
+  'url' => '',
+  'oper' => 'edit',
+)
+[ info ] [ RUN ] app\admin\controller\Cases->ajax_edit[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000550s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.004243s ]
+[ sql ] [ SQL ] UPDATE `cases`  SET `name`='111',`url`=''  WHERE  `id` = 16 [ RunTime:0.002254s ]
+[ sql ] [ SQL ] SELECT * FROM `cases` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000645s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:18:21+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/cases/index
+[ info ] 127.0.0.1:4001/admin/cases/index [运行时间：0.035488s][吞吐率：28.18req/s] [内存消耗：1,592.96kb] [文件加载：36]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'cache-control' => 'max-age=0',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.1.2 Safari/603.3.8',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506299371; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1503709310,1506299371; PHPSESSID=q4npbkd5ad7m3t1u6mvdmlssd2',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Cases->index[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ VIEW ] /Users/apple/git/huaqi/jxdzsw/application/admin/view/cases/index.html [ array (
+  0 => 'module',
+  1 => 'access_menu',
+  2 => 'menu',
+  3 => 'action',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-27T00:18:21+08:00 ] 127.0.0.1 127.0.0.1 GET /public/css/bootstrap.min.css.map
+[ info ] 127.0.0.1:4001/public/css/bootstrap.min.css.map [运行时间：0.037836s][吞吐率：26.43req/s] [内存消耗：1,275.07kb] [文件加载：27]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'css',
+    2 => 'bootstrap.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.1.2 Safari/603.3.8',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506299371; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1503709310,1506299371; PHPSESSID=q4npbkd5ad7m3t1u6mvdmlssd2',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-27T00:18:21+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/cases/ajax_fetch?_search=false&nd=1506442701669&rows=12&page=1&sidx=&sord=asc
+[ info ] 127.0.0.1:4001/admin/cases/ajax_fetch?_search=false&nd=1506442701669&rows=12&page=1&sidx=&sord=asc [运行时间：0.060185s][吞吐率：16.62req/s] [内存消耗：2,459.91kb] [文件加载：41]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'ajax_fetch',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'XMLHttpRequest',
+  'cache-control' => 'max-age=0',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.1.2 Safari/603.3.8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506299371; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1503709310,1506299371; PHPSESSID=q4npbkd5ad7m3t1u6mvdmlssd2',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  '_search' => 'false',
+  'nd' => '1506442701669',
+  'rows' => '12',
+  'page' => '1',
+  'sidx' => '',
+  'sord' => 'asc',
+)
+[ info ] [ RUN ] app\admin\controller\Cases->ajax_fetch[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000633s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.013154s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `cases` LIMIT 1 [ RunTime:0.000761s ]
+[ sql ] [ SQL ] SELECT * FROM `cases` ORDER BY id desc LIMIT 0,12 [ RunTime:0.000646s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:19:18+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/cases/index
+[ info ] 127.0.0.1:4001/admin/cases/index [运行时间：0.067418s][吞吐率：14.83req/s] [内存消耗：1,832.95kb] [文件加载：38]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/product/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Cases->index[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ VIEW ] /Users/apple/git/huaqi/jxdzsw/application/admin/view/cases/index.html [ array (
+  0 => 'module',
+  1 => 'access_menu',
+  2 => 'menu',
+  3 => 'action',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-27T00:19:19+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/cases/ajax_fetch?_search=false&nd=1506442759572&rows=12&page=1&sidx=&sord=asc
+[ info ] 127.0.0.1:4001/admin/cases/ajax_fetch?_search=false&nd=1506442759572&rows=12&page=1&sidx=&sord=asc [运行时间：0.064744s][吞吐率：15.45req/s] [内存消耗：2,461.08kb] [文件加载：41]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'ajax_fetch',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  '_search' => 'false',
+  'nd' => '1506442759572',
+  'rows' => '12',
+  'page' => '1',
+  'sidx' => '',
+  'sord' => 'asc',
+)
+[ info ] [ RUN ] app\admin\controller\Cases->ajax_fetch[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002441s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.006294s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `cases` LIMIT 1 [ RunTime:0.000408s ]
+[ sql ] [ SQL ] SELECT * FROM `cases` ORDER BY id desc LIMIT 0,12 [ RunTime:0.000439s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:19:28+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/cases/ajax_cell
+[ info ] 127.0.0.1:4001/admin/cases/ajax_cell [运行时间：0.079415s][吞吐率：12.59req/s] [内存消耗：2,505.16kb] [文件加载：46]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'ajax_cell',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.1:4001',
+  'accept' => '*/*',
+  'content-length' => '22',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'df',
+  'id' => '16',
+  'oper' => 'edit',
+)
+[ info ] [ RUN ] app\admin\controller\Cases->ajax_cell[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000461s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.003758s ]
+[ sql ] [ SQL ] UPDATE `cases`  SET `url`='df'  WHERE  `id` = 16 [ RunTime:0.002571s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:19:31+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/cases/ajax_cell
+[ info ] 127.0.0.1:4001/admin/cases/ajax_cell [运行时间：0.065731s][吞吐率：15.21req/s] [内存消耗：2,505.17kb] [文件加载：46]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'ajax_cell',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.1:4001',
+  'accept' => '*/*',
+  'content-length' => '28',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'dfsdfdsf',
+  'id' => '16',
+  'oper' => 'edit',
+)
+[ info ] [ RUN ] app\admin\controller\Cases->ajax_cell[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000529s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.004831s ]
+[ sql ] [ SQL ] UPDATE `cases`  SET `url`='dfsdfdsf'  WHERE  `id` = 16 [ RunTime:0.001602s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:19:46+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/cases/ajax_cell
+[ info ] 127.0.0.1:4001/admin/cases/ajax_cell [运行时间：0.092132s][吞吐率：10.85req/s] [内存消耗：2,504.18kb] [文件加载：46]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'ajax_cell',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.1:4001',
+  'accept' => '*/*',
+  'content-length' => '27',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'asdfdsf',
+  'id' => '15',
+  'oper' => 'edit',
+)
+[ info ] [ RUN ] app\admin\controller\Cases->ajax_cell[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000528s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.006375s ]
+[ sql ] [ SQL ] UPDATE `cases`  SET `url`='asdfdsf'  WHERE  `id` = 15 [ RunTime:0.002704s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:19:50+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/cases/ajax_cell
+[ info ] 127.0.0.1:4001/admin/cases/ajax_cell [运行时间：0.061021s][吞吐率：16.39req/s] [内存消耗：2,504.18kb] [文件加载：46]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'ajax_cell',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.1:4001',
+  'accept' => '*/*',
+  'content-length' => '26',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'sdfsdf',
+  'id' => '14',
+  'oper' => 'edit',
+)
+[ info ] [ RUN ] app\admin\controller\Cases->ajax_cell[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003634s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.005003s ]
+[ sql ] [ SQL ] UPDATE `cases`  SET `url`='sdfsdf'  WHERE  `id` = 14 [ RunTime:0.001627s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:20:20+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/cases/ajax_edit?is_create=1&id=
+[ info ] 127.0.0.1:4001/admin/cases/ajax_edit?is_create=1&id= [运行时间：11.006698s][吞吐率：0.09req/s] [内存消耗：2,415.01kb] [文件加载：41]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'ajax_edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.1:4001',
+  'accept' => '*/*',
+  'content-length' => '28',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+)
+[ info ] [ PARAM ] array (
+  'is_create' => '1',
+  'id' => '',
+  'name' => 'sdf',
+  'url' => 'sdfsdf',
+  'oper' => 'add',
+)
+[ info ] [ RUN ] app\admin\controller\Cases->ajax_edit[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000559s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.007626s ]
+[ sql ] [ SQL ] INSERT INTO `cases` (`name` , `url`) VALUES ('sdf' , 'sdfsdf') [ RunTime:0.001154s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:20:28+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/cases/index
+[ info ] 127.0.0.1:4001/admin/cases/index [运行时间：0.018397s][吞吐率：54.36req/s] [内存消耗：1,593.44kb] [文件加载：36]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/product/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Cases->index[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ VIEW ] /Users/apple/git/huaqi/jxdzsw/application/admin/view/cases/index.html [ array (
+  0 => 'module',
+  1 => 'access_menu',
+  2 => 'menu',
+  3 => 'action',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-27T00:20:28+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/cases/ajax_fetch?_search=false&nd=1506442828673&rows=12&page=1&sidx=&sord=asc
+[ info ] 127.0.0.1:4001/admin/cases/ajax_fetch?_search=false&nd=1506442828673&rows=12&page=1&sidx=&sord=asc [运行时间：0.034682s][吞吐率：28.83req/s] [内存消耗：2,460.95kb] [文件加载：41]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'ajax_fetch',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  '_search' => 'false',
+  'nd' => '1506442828673',
+  'rows' => '12',
+  'page' => '1',
+  'sidx' => '',
+  'sord' => 'asc',
+)
+[ info ] [ RUN ] app\admin\controller\Cases->ajax_fetch[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000466s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.004619s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `cases` LIMIT 1 [ RunTime:0.000576s ]
+[ sql ] [ SQL ] SELECT * FROM `cases` ORDER BY id desc LIMIT 0,12 [ RunTime:0.000853s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:20:41+08:00 ] 127.0.0.1 127.0.0.1 POST /base/upload/img?type=cases&is_create=1
+[ info ] 127.0.0.1:4001/base/upload/img?type=cases&is_create=1 [运行时间：0.058002s][吞吐率：17.24req/s] [内存消耗：2,424.63kb] [文件加载：38]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'base',
+    1 => 'upload',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryAq7BFrwSgjM8IOdH',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'origin' => 'http://127.0.0.1:4001',
+  'content-length' => '6170',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'image/png',
+  'is_create' => '1',
+  'id' => 'WU_FILE_0',
+  'name' => 'comments.png',
+  'lastModifiedDate' => 'Fri Sep 08 2017 10:09:40 GMT+0800 (CST)',
+  'size' => '5447',
+)
+[ info ] [ RUN ] app\base\controller\Upload->img[ /Users/apple/git/huaqi/jxdzsw/application/base/controller/Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000476s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.008513s ]
+[ sql ] [ SQL ] INSERT INTO `cases` (`file`) VALUES ('/public/img/upload/20170927/8cbedfc3094910a349e83cd4b8874ee1.png||comments.png') [ RunTime:0.002080s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:20:42+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/cases/ajax_edit?is_create=0&id=18
+[ info ] 127.0.0.1:4001/admin/cases/ajax_edit?is_create=0&id=18 [运行时间：0.039473s][吞吐率：25.33req/s] [内存消耗：2,528.81kb] [文件加载：44]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'ajax_edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.1:4001',
+  'accept' => '*/*',
+  'content-length' => '26',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+)
+[ info ] [ PARAM ] array (
+  'is_create' => '0',
+  'id' => '18',
+  'name' => 'sdf',
+  'url' => '111',
+  'oper' => 'edit',
+)
+[ info ] [ RUN ] app\admin\controller\Cases->ajax_edit[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002525s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.005346s ]
+[ sql ] [ SQL ] UPDATE `cases`  SET `name`='sdf',`url`='111'  WHERE  `id` = 18 [ RunTime:0.001740s ]
+[ sql ] [ SQL ] SELECT * FROM `cases` WHERE  `id` = 18 LIMIT 1 [ RunTime:0.000420s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:20:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/cases/index
+[ info ] 127.0.0.1:4001/admin/cases/index [运行时间：0.019145s][吞吐率：52.23req/s] [内存消耗：1,593.44kb] [文件加载：36]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Cases->index[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ VIEW ] /Users/apple/git/huaqi/jxdzsw/application/admin/view/cases/index.html [ array (
+  0 => 'module',
+  1 => 'access_menu',
+  2 => 'menu',
+  3 => 'action',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-27T00:20:43+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/cases/ajax_fetch?_search=false&nd=1506442843478&rows=12&page=1&sidx=&sord=asc
+[ info ] 127.0.0.1:4001/admin/cases/ajax_fetch?_search=false&nd=1506442843478&rows=12&page=1&sidx=&sord=asc [运行时间：0.044059s][吞吐率：22.70req/s] [内存消耗：2,461.62kb] [文件加载：41]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'ajax_fetch',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  '_search' => 'false',
+  'nd' => '1506442843478',
+  'rows' => '12',
+  'page' => '1',
+  'sidx' => '',
+  'sord' => 'asc',
+)
+[ info ] [ RUN ] app\admin\controller\Cases->ajax_fetch[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000605s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.003713s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `cases` LIMIT 1 [ RunTime:0.000342s ]
+[ sql ] [ SQL ] SELECT * FROM `cases` ORDER BY id desc LIMIT 0,12 [ RunTime:0.000618s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:30:12+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/cases/index
+[ info ] 127.0.0.1:4001/admin/cases/index [运行时间：0.097106s][吞吐率：10.30req/s] [内存消耗：1,830.47kb] [文件加载：38]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://127.0.0.1:4001/admin/news/add_news',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.1.2 Safari/603.3.8',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506299371; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1503709310,1506299371; PHPSESSID=q4npbkd5ad7m3t1u6mvdmlssd2',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Cases->index[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ VIEW ] /Users/apple/git/huaqi/jxdzsw/application/admin/view/cases/index.html [ array (
+  0 => 'module',
+  1 => 'access_menu',
+  2 => 'menu',
+  3 => 'action',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-27T00:30:12+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/cases/ajax_fetch?_search=false&nd=1506443412554&rows=12&page=1&sidx=&sord=asc
+[ info ] 127.0.0.1:4001/admin/cases/ajax_fetch?_search=false&nd=1506443412554&rows=12&page=1&sidx=&sord=asc [运行时间：0.075743s][吞吐率：13.20req/s] [内存消耗：2,460.41kb] [文件加载：41]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'ajax_fetch',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.1.2 Safari/603.3.8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506299371; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1503709310,1506299371; PHPSESSID=q4npbkd5ad7m3t1u6mvdmlssd2',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  '_search' => 'false',
+  'nd' => '1506443412554',
+  'rows' => '12',
+  'page' => '1',
+  'sidx' => '',
+  'sord' => 'asc',
+)
+[ info ] [ RUN ] app\admin\controller\Cases->ajax_fetch[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002846s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.011541s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `cases` LIMIT 1 [ RunTime:0.000545s ]
+[ sql ] [ SQL ] SELECT * FROM `cases` ORDER BY id desc LIMIT 0,12 [ RunTime:0.000552s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:31:09+08:00 ] 127.0.0.1 127.0.0.1 POST /base/upload/img?type=cases&is_create=1
+[ info ] 127.0.0.1:4001/base/upload/img?type=cases&is_create=1 [运行时间：46.358259s][吞吐率：0.02req/s] [内存消耗：2,451.67kb] [文件加载：38]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'base',
+    1 => 'upload',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '6343',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.1.2 Safari/603.3.8',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506299371; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1503709310,1506299371; PHPSESSID=q4npbkd5ad7m3t1u6mvdmlssd2',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://127.0.0.1:4001',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryoraEJsZZZ7JvXhj5',
+  'host' => '127.0.0.1:4001',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'image/png',
+  'is_create' => '1',
+  'id' => 'WU_FILE_0',
+  'name' => 'comments (1).png',
+  'lastModifiedDate' => '2017/9/27 上午12:30:23',
+  'size' => '5627',
+)
+[ info ] [ RUN ] app\base\controller\Upload->img[ /Users/apple/git/huaqi/jxdzsw/application/base/controller/Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002585s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.009274s ]
+[ sql ] [ SQL ] INSERT INTO `cases` (`file`) VALUES ('/public/img/upload/20170927/7d03db76273fa116aa1ef26249a449f0.png||comments (1).png') [ RunTime:0.004990s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:31:13+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/cases/ajax_edit?is_create=0&id=19
+[ info ] 127.0.0.1:4001/admin/cases/ajax_edit?is_create=0&id=19 [运行时间：0.069399s][吞吐率：14.41req/s] [内存消耗：2,527.59kb] [文件加载：44]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'ajax_edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506299371; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1503709310,1506299371; PHPSESSID=q4npbkd5ad7m3t1u6mvdmlssd2',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.1.2 Safari/603.3.8',
+  'connection' => 'keep-alive',
+  'content-length' => '23',
+  'origin' => 'http://127.0.0.1:4001',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'host' => '127.0.0.1:4001',
+)
+[ info ] [ PARAM ] array (
+  'is_create' => '0',
+  'id' => '19',
+  'name' => 'sdf',
+  'url' => '',
+  'oper' => 'edit',
+)
+[ info ] [ RUN ] app\admin\controller\Cases->ajax_edit[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002135s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.004383s ]
+[ sql ] [ SQL ] UPDATE `cases`  SET `name`='sdf',`url`=''  WHERE  `id` = 19 [ RunTime:0.001680s ]
+[ sql ] [ SQL ] SELECT * FROM `cases` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000498s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:31:13+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/cases/index
+[ info ] 127.0.0.1:4001/admin/cases/index [运行时间：0.021141s][吞吐率：47.30req/s] [内存消耗：1,591.98kb] [文件加载：36]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'cache-control' => 'max-age=0',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.1.2 Safari/603.3.8',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506299371; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1503709310,1506299371; PHPSESSID=q4npbkd5ad7m3t1u6mvdmlssd2',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Cases->index[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ VIEW ] /Users/apple/git/huaqi/jxdzsw/application/admin/view/cases/index.html [ array (
+  0 => 'module',
+  1 => 'access_menu',
+  2 => 'menu',
+  3 => 'action',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-27T00:31:13+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/cases/ajax_fetch?_search=false&nd=1506443473810&rows=12&page=1&sidx=&sord=asc
+[ info ] 127.0.0.1:4001/admin/cases/ajax_fetch?_search=false&nd=1506443473810&rows=12&page=1&sidx=&sord=asc [运行时间：0.056088s][吞吐率：17.83req/s] [内存消耗：2,461.34kb] [文件加载：41]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'ajax_fetch',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.1.2 Safari/603.3.8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506299371; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1503709310,1506299371; PHPSESSID=q4npbkd5ad7m3t1u6mvdmlssd2',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  '_search' => 'false',
+  'nd' => '1506443473810',
+  'rows' => '12',
+  'page' => '1',
+  'sidx' => '',
+  'sord' => 'asc',
+)
+[ info ] [ RUN ] app\admin\controller\Cases->ajax_fetch[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002065s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.004696s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `cases` LIMIT 1 [ RunTime:0.000309s ]
+[ sql ] [ SQL ] SELECT * FROM `cases` ORDER BY id desc LIMIT 0,12 [ RunTime:0.000371s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:32:52+08:00 ] 127.0.0.1 127.0.0.1 GET /public/css/bootstrap.min.css.map
+[ info ] 127.0.0.1:4001/public/css/bootstrap.min.css.map [运行时间：0.086320s][吞吐率：11.58req/s] [内存消耗：1,273.92kb] [文件加载：27]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'css',
+    2 => 'bootstrap.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.1.2 Safari/603.3.8',
+  'cookie' => 'Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506299371; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1503709310,1506299371; PHPSESSID=q4npbkd5ad7m3t1u6mvdmlssd2',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-27T00:32:54+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/cases/index
+[ info ] 127.0.0.1:4001/admin/cases/index [运行时间：0.045043s][吞吐率：22.20req/s] [内存消耗：1,591.98kb] [文件加载：36]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'cache-control' => 'max-age=0',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.1.2 Safari/603.3.8',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506299371; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1503709310,1506299371; PHPSESSID=q4npbkd5ad7m3t1u6mvdmlssd2',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Cases->index[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ VIEW ] /Users/apple/git/huaqi/jxdzsw/application/admin/view/cases/index.html [ array (
+  0 => 'module',
+  1 => 'access_menu',
+  2 => 'menu',
+  3 => 'action',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-27T00:32:54+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/cases/ajax_fetch?_search=false&nd=1506443574648&rows=12&page=1&sidx=&sord=asc
+[ info ] 127.0.0.1:4001/admin/cases/ajax_fetch?_search=false&nd=1506443574648&rows=12&page=1&sidx=&sord=asc [运行时间：0.083313s][吞吐率：12.00req/s] [内存消耗：2,461.34kb] [文件加载：41]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'ajax_fetch',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.1.2 Safari/603.3.8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506299371; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1503709310,1506299371; PHPSESSID=q4npbkd5ad7m3t1u6mvdmlssd2',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  '_search' => 'false',
+  'nd' => '1506443574648',
+  'rows' => '12',
+  'page' => '1',
+  'sidx' => '',
+  'sord' => 'asc',
+)
+[ info ] [ RUN ] app\admin\controller\Cases->ajax_fetch[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000731s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.006774s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `cases` LIMIT 1 [ RunTime:0.001503s ]
+[ sql ] [ SQL ] SELECT * FROM `cases` ORDER BY id desc LIMIT 0,12 [ RunTime:0.001155s ]
+---------------------------------------------------------------
+[ 2017-09-27T00:32:54+08:00 ] 127.0.0.1 127.0.0.1 GET /public/css/bootstrap.min.css.map
+[ info ] 127.0.0.1:4001/public/css/bootstrap.min.css.map [运行时间：0.067185s][吞吐率：14.88req/s] [内存消耗：1,273.92kb] [文件加载：27]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'css',
+    2 => 'bootstrap.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.1.2 Safari/603.3.8',
+  'cookie' => 'Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506299371; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1503709310,1506299371; PHPSESSID=q4npbkd5ad7m3t1u6mvdmlssd2',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-27T00:32:59+08:00 ] 127.0.0.1 127.0.0.1 GET /public/css/bootstrap.min.css.map
+[ info ] 127.0.0.1:4001/public/css/bootstrap.min.css.map [运行时间：0.017122s][吞吐率：58.40req/s] [内存消耗：1,273.92kb] [文件加载：27]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'css',
+    2 => 'bootstrap.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:4001/admin/cases/index',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.1.2 Safari/603.3.8',
+  'cookie' => 'Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506299371; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1503709310,1506299371; PHPSESSID=q4npbkd5ad7m3t1u6mvdmlssd2',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-27T08:45:29+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] 127.0.0.1:4001/ [运行时间：13.624546s][吞吐率：0.07req/s] [内存消耗：2,422.77kb] [文件加载：39]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/apple/git/huaqi/jxdzsw/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002958s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.010539s ]
+[ sql ] [ SQL ] SELECT * FROM `cases` [ RunTime:0.000564s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.006611s ]
+[ sql ] [ SQL ] SELECT * FROM `product` [ RunTime:0.000479s ]

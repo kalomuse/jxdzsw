@@ -1,0 +1,1808 @@
+---------------------------------------------------------------
+[ 2017-09-28T05:00:40+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] 127.0.0.1:4001/ [运行时间：10.251746s][吞吐率：0.10req/s] [内存消耗：2,416.08kb] [文件加载：39]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/apple/git/huaqi/jxdzsw/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019913s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.043097s ]
+[ sql ] [ SQL ] SELECT * FROM `cases` [ RunTime:0.006615s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.011918s ]
+[ sql ] [ SQL ] SELECT * FROM `product` [ RunTime:0.001936s ]
+---------------------------------------------------------------
+[ 2017-09-28T05:00:55+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] 127.0.0.1:4001/ [运行时间：10.622133s][吞吐率：0.09req/s] [内存消耗：2,416.57kb] [文件加载：39]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/apple/git/huaqi/jxdzsw/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004480s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.006668s ]
+[ sql ] [ SQL ] SELECT * FROM `cases` [ RunTime:0.000426s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005572s ]
+[ sql ] [ SQL ] SELECT * FROM `product` [ RunTime:0.000414s ]
+---------------------------------------------------------------
+[ 2017-09-28T05:01:55+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] 127.0.0.1:4001/ [运行时间：0.075189s][吞吐率：13.30req/s] [内存消耗：2,414.86kb] [文件加载：39]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/apple/git/huaqi/jxdzsw/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000902s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.006080s ]
+[ sql ] [ SQL ] SELECT * FROM `cases` [ RunTime:0.000481s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004351s ]
+[ sql ] [ SQL ] SELECT * FROM `product` [ RunTime:0.000467s ]
+---------------------------------------------------------------
+[ 2017-09-28T05:02:12+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] 127.0.0.1:4001/ [运行时间：0.079852s][吞吐率：12.52req/s] [内存消耗：2,414.86kb] [文件加载：39]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/apple/git/huaqi/jxdzsw/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002549s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.009852s ]
+[ sql ] [ SQL ] SELECT * FROM `cases` [ RunTime:0.000562s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004241s ]
+[ sql ] [ SQL ] SELECT * FROM `product` [ RunTime:0.000429s ]
+---------------------------------------------------------------
+[ 2017-09-28T05:04:43+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] 127.0.0.1:4001/ [运行时间：0.143584s][吞吐率：6.96req/s] [内存消耗：2,414.86kb] [文件加载：39]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/apple/git/huaqi/jxdzsw/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000577s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.019441s ]
+[ sql ] [ SQL ] SELECT * FROM `cases` [ RunTime:0.001484s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.009494s ]
+[ sql ] [ SQL ] SELECT * FROM `product` [ RunTime:0.000754s ]
+---------------------------------------------------------------
+[ 2017-09-28T05:05:55+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] 127.0.0.1:4001/ [运行时间：0.122027s][吞吐率：8.19req/s] [内存消耗：2,489.41kb] [文件加载：44]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/apple/git/huaqi/jxdzsw/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004692s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.010694s ]
+[ sql ] [ SQL ] SELECT * FROM `cases` [ RunTime:0.000769s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.006023s ]
+[ sql ] [ SQL ] SELECT * FROM `product` [ RunTime:0.000537s ]
+[ error ] [8]未定义数组索引: file[/Users/apple/git/huaqi/jxdzsw/application/index/controller/Index.php:16]
+---------------------------------------------------------------
+[ 2017-09-28T05:06:15+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] 127.0.0.1:4001/ [运行时间：1.983463s][吞吐率：0.50req/s] [内存消耗：2,417.31kb] [文件加载：39]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/apple/git/huaqi/jxdzsw/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003469s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.013493s ]
+[ sql ] [ SQL ] SELECT * FROM `cases` [ RunTime:0.000365s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.008461s ]
+[ sql ] [ SQL ] SELECT * FROM `product` [ RunTime:0.000423s ]
+---------------------------------------------------------------
+[ 2017-09-28T05:19:57+08:00 ] 127.0.0.1 127.0.0.1 GET /index/product/detail
+[ info ] 127.0.0.1:4001/index/product/detail [运行时间：0.061524s][吞吐率：16.25req/s] [内存消耗：1,528.36kb] [文件加载：32]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'product',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Product->detail[ /Users/apple/git/huaqi/jxdzsw/application/index/controller/Product.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-28T05:20:07+08:00 ] 127.0.0.1 127.0.0.1 GET /index/product/detail?id=1
+[ info ] 127.0.0.1:4001/index/product/detail?id=1 [运行时间：0.066639s][吞吐率：15.01req/s] [内存消耗：2,398.36kb] [文件加载：38]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'product',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Product->detail[ /Users/apple/git/huaqi/jxdzsw/application/index/controller/Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004469s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.008833s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` = 1 [ RunTime:0.008263s ]
+---------------------------------------------------------------
+[ 2017-09-28T05:20:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index/product
+[ info ] 127.0.0.1:4001/index/product [运行时间：0.093275s][吞吐率：10.72req/s] [内存消耗：2,403.60kb] [文件加载：38]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'product',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Product->index[ /Users/apple/git/huaqi/jxdzsw/application/index/controller/Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002965s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.019964s ]
+[ sql ] [ SQL ] SELECT * FROM `product` [ RunTime:0.007588s ]
+---------------------------------------------------------------
+[ 2017-09-28T05:20:25+08:00 ] 127.0.0.1 127.0.0.1 GET /index/product/detail?id=19
+[ info ] 127.0.0.1:4001/index/product/detail?id=19 [运行时间：0.035737s][吞吐率：27.98req/s] [内存消耗：2,399.58kb] [文件加载：38]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'product',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '19',
+)
+[ info ] [ RUN ] app\index\controller\Product->detail[ /Users/apple/git/huaqi/jxdzsw/application/index/controller/Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002468s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.006196s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` = 19 [ RunTime:0.002572s ]
+---------------------------------------------------------------
+[ 2017-09-28T05:25:32+08:00 ] 127.0.0.1 127.0.0.1 GET /index/news
+[ info ] 127.0.0.1:4001/index/news [运行时间：0.080321s][吞吐率：12.45req/s] [内存消耗：2,482.07kb] [文件加载：43]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'news',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\News->index[ /Users/apple/git/huaqi/jxdzsw/application/index/controller/News.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000602s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.006801s ]
+[ sql ] [ SQL ] SELECT * FROM `news` [ RunTime:0.000519s ]
+[ error ] [8]未定义数组索引: file[/Users/apple/git/huaqi/jxdzsw/application/index/controller/News.php:11]
+---------------------------------------------------------------
+[ 2017-09-28T05:25:53+08:00 ] 127.0.0.1 127.0.0.1 GET /index/news
+[ info ] 127.0.0.1:4001/index/news [运行时间：0.055163s][吞吐率：18.13req/s] [内存消耗：2,394.29kb] [文件加载：38]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'news',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\News->index[ /Users/apple/git/huaqi/jxdzsw/application/index/controller/News.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000613s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.004686s ]
+[ sql ] [ SQL ] SELECT * FROM `news` [ RunTime:0.000435s ]
+---------------------------------------------------------------
+[ 2017-09-28T05:26:12+08:00 ] 127.0.0.1 127.0.0.1 GET /index/message
+[ info ] 127.0.0.1:4001/index/message [运行时间：0.083480s][吞吐率：11.98req/s] [内存消耗：2,481.05kb] [文件加载：43]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'message',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Message->index[ /Users/apple/git/huaqi/jxdzsw/application/index/controller/Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006308s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `message` [ RunTime:0.005230s ]
+[ sql ] [ SQL ] SELECT * FROM `message` [ RunTime:0.003197s ]
+[ error ] [8]未定义数组索引: file[/Users/apple/git/huaqi/jxdzsw/application/index/controller/Message.php:11]
+---------------------------------------------------------------
+[ 2017-09-28T05:26:30+08:00 ] 127.0.0.1 127.0.0.1 GET /index/message
+[ info ] 127.0.0.1:4001/index/message [运行时间：0.039730s][吞吐率：25.17req/s] [内存消耗：2,392.61kb] [文件加载：38]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'message',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Message->index[ /Users/apple/git/huaqi/jxdzsw/application/index/controller/Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002210s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `message` [ RunTime:0.005788s ]
+[ sql ] [ SQL ] SELECT * FROM `message` [ RunTime:0.000522s ]
+---------------------------------------------------------------
+[ 2017-09-28T05:27:02+08:00 ] 127.0.0.1 127.0.0.1 GET /index/case
+[ info ] 127.0.0.1:4001/index/case [运行时间：0.015234s][吞吐率：65.64req/s] [内存消耗：1,275.29kb] [文件加载：27]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'case',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-28T05:27:05+08:00 ] 127.0.0.1 127.0.0.1 GET /index/cases
+[ info ] 127.0.0.1:4001/index/cases [运行时间：0.051961s][吞吐率：19.25req/s] [内存消耗：2,405.36kb] [文件加载：38]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cases',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cases->index[ /Users/apple/git/huaqi/jxdzsw/application/index/controller/Cases.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000506s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.005799s ]
+[ sql ] [ SQL ] SELECT * FROM `cases` [ RunTime:0.000864s ]
+---------------------------------------------------------------
+[ 2017-09-28T05:27:42+08:00 ] 127.0.0.1 127.0.0.1 GET /index/cases1
+[ info ] 127.0.0.1:4001/index/cases1 [运行时间：9.881192s][吞吐率：0.10req/s] [内存消耗：1,275.29kb] [文件加载：27]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cases1',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-28T05:29:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index/cases1
+[ info ] 127.0.0.1:4001/index/cases1 [运行时间：0.040087s][吞吐率：24.95req/s] [内存消耗：1,192.91kb] [文件加载：24]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cases1',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-28T05:30:50+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] 127.0.0.1:4001/ [运行时间：0.089875s][吞吐率：11.13req/s] [内存消耗：2,414.36kb] [文件加载：39]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/apple/git/huaqi/jxdzsw/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001198s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.008313s ]
+[ sql ] [ SQL ] SELECT * FROM `cases` [ RunTime:0.000518s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004749s ]
+[ sql ] [ SQL ] SELECT * FROM `product` LIMIT 6 [ RunTime:0.002337s ]
+---------------------------------------------------------------
+[ 2017-09-28T05:36:58+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] 127.0.0.1:4001/ [运行时间：0.085250s][吞吐率：11.73req/s] [内存消耗：2,414.40kb] [文件加载：39]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/apple/git/huaqi/jxdzsw/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003277s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.007354s ]
+[ sql ] [ SQL ] SELECT * FROM `cases` [ RunTime:0.000612s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005833s ]
+[ sql ] [ SQL ] SELECT * FROM `product` LIMIT 6 [ RunTime:0.000506s ]
+---------------------------------------------------------------
+[ 2017-09-28T05:37:05+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] 127.0.0.1:4001/ [运行时间：0.040701s][吞吐率：24.57req/s] [内存消耗：2,414.40kb] [文件加载：39]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/apple/git/huaqi/jxdzsw/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002244s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.005600s ]
+[ sql ] [ SQL ] SELECT * FROM `cases` [ RunTime:0.000373s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004745s ]
+[ sql ] [ SQL ] SELECT * FROM `product` LIMIT 6 [ RunTime:0.000394s ]
+---------------------------------------------------------------
+[ 2017-09-28T05:37:41+08:00 ] 127.0.0.1 127.0.0.1 GET /index/product
+[ info ] 127.0.0.1:4001/index/product [运行时间：0.067730s][吞吐率：14.76req/s] [内存消耗：2,404.02kb] [文件加载：38]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'product',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Product->index[ /Users/apple/git/huaqi/jxdzsw/application/index/controller/Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002029s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004001s ]
+[ sql ] [ SQL ] SELECT * FROM `product` [ RunTime:0.000432s ]
+---------------------------------------------------------------
+[ 2017-09-28T06:21:38+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] 127.0.0.1:4001/ [运行时间：0.102786s][吞吐率：9.73req/s] [内存消耗：2,414.36kb] [文件加载：39]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/apple/git/huaqi/jxdzsw/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002897s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.010249s ]
+[ sql ] [ SQL ] SELECT * FROM `cases` [ RunTime:0.000636s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.008816s ]
+[ sql ] [ SQL ] SELECT * FROM `product` LIMIT 6 [ RunTime:0.000714s ]
+---------------------------------------------------------------
+[ 2017-09-28T06:21:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ info ] 127.0.0.1:4001/admin [运行时间：0.035495s][吞吐率：28.17req/s] [内存消耗：1,593.50kb] [文件加载：36]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Cases->index[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ VIEW ] /Users/apple/git/huaqi/jxdzsw/application/admin/view/cases/index.html [ array (
+  0 => 'access_menu',
+  1 => 'menu',
+  2 => 'module',
+  3 => 'action',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-28T06:21:43+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/cases/ajax_fetch?_search=false&nd=1506550903663&rows=12&page=1&sidx=&sord=asc
+[ info ] 127.0.0.1:4001/admin/cases/ajax_fetch?_search=false&nd=1506550903663&rows=12&page=1&sidx=&sord=asc [运行时间：0.072457s][吞吐率：13.80req/s] [内存消耗：2,463.37kb] [文件加载：41]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'ajax_fetch',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  '_search' => 'false',
+  'nd' => '1506550903663',
+  'rows' => '12',
+  'page' => '1',
+  'sidx' => '',
+  'sord' => 'asc',
+)
+[ info ] [ RUN ] app\admin\controller\Cases->ajax_fetch[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002358s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.012989s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `cases` LIMIT 1 [ RunTime:0.004198s ]
+[ sql ] [ SQL ] SELECT * FROM `cases` ORDER BY id desc LIMIT 0,12 [ RunTime:0.003621s ]
+---------------------------------------------------------------
+[ 2017-09-28T06:21:47+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/product/index
+[ info ] 127.0.0.1:4001/admin/product/index [运行时间：0.046182s][吞吐率：21.65req/s] [内存消耗：1,598.98kb] [文件加载：36]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'product',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Product->index[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Product.php ]
+[ info ] [ VIEW ] /Users/apple/git/huaqi/jxdzsw/application/admin/view/product/index.html [ array (
+  0 => 'module',
+  1 => 'access_menu',
+  2 => 'menu',
+  3 => 'action',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-28T06:21:48+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/product/ajax_fetch?_search=false&nd=1506550908272&rows=12&page=1&sidx=&sord=asc
+[ info ] 127.0.0.1:4001/admin/product/ajax_fetch?_search=false&nd=1506550908272&rows=12&page=1&sidx=&sord=asc [运行时间：0.086942s][吞吐率：11.50req/s] [内存消耗：2,459.97kb] [文件加载：41]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'product',
+    2 => 'ajax_fetch',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/product/index',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  '_search' => 'false',
+  'nd' => '1506550908272',
+  'rows' => '12',
+  'page' => '1',
+  'sidx' => '',
+  'sord' => 'asc',
+)
+[ info ] [ RUN ] app\admin\controller\Product->ajax_fetch[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003398s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004433s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `product` LIMIT 1 [ RunTime:0.000425s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY id desc LIMIT 0,12 [ RunTime:0.000396s ]
+---------------------------------------------------------------
+[ 2017-09-28T06:22:23+08:00 ] 127.0.0.1 127.0.0.1 POST /base/upload/img?id=26&type=product&attr=detail
+[ info ] 127.0.0.1:4001/base/upload/img?id=26&type=product&attr=detail [运行时间：23.985701s][吞吐率：0.04req/s] [内存消耗：2,579.26kb] [文件加载：42]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'base',
+    1 => 'upload',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/product/index',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarySMNKKeZAaQBIqT4v',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'origin' => 'http://127.0.0.1:4001',
+  'content-length' => '6170',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'WU_FILE_0',
+  'type' => 'image/png',
+  'attr' => 'detail',
+  'name' => 'comments.png',
+  'lastModifiedDate' => 'Fri Sep 08 2017 10:09:40 GMT+0800 (CST)',
+  'size' => '5447',
+)
+[ info ] [ RUN ] app\base\controller\Upload->img[ /Users/apple/git/huaqi/jxdzsw/application/base/controller/Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004490s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.007280s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` = 26 LIMIT 1 [ RunTime:0.001707s ]
+[ sql ] [ SQL ] UPDATE `product`  SET `detail`='/public/img/upload/20170926/da6e3612aa8f22da5ffd5164f5791e79.png||comments.png,/public/img/upload/20170928/1a7c0a09a1b1dfab66235ac3834338d1.png||comments.png'  WHERE  `id` = 26 [ RunTime:0.015745s ]
+---------------------------------------------------------------
+[ 2017-09-28T06:22:40+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/news/detail?id=29
+[ info ] 127.0.0.1:4001/admin/news/detail?id=29 [运行时间：0.110549s][吞吐率：9.05req/s] [内存消耗：2,478.95kb] [文件加载：43]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '29',
+)
+[ info ] [ RUN ] app\admin\controller\News->detail[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/News.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/apple/git/huaqi/jxdzsw/application/admin/view/news/detail.html [ array (
+  0 => 'module',
+  1 => 'access_menu',
+  2 => 'menu',
+  3 => 'action',
+  4 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003042s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.005160s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE  `id` = 29 LIMIT 1 [ RunTime:0.000638s ]
+---------------------------------------------------------------
+[ 2017-09-28T06:23:26+08:00 ] 127.0.0.1 127.0.0.1 GET /index/product/detail?id=29
+[ info ] 127.0.0.1:4001/index/product/detail?id=29 [运行时间：5.632127s][吞吐率：0.18req/s] [内存消耗：2,403.41kb] [文件加载：38]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'product',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '29',
+)
+[ info ] [ RUN ] app\index\controller\Product->detail[ /Users/apple/git/huaqi/jxdzsw/application/index/controller/Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002523s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004918s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` = 29 LIMIT 1 [ RunTime:0.000444s ]
+---------------------------------------------------------------
+[ 2017-09-28T06:23:32+08:00 ] 127.0.0.1 127.0.0.1 GET /index/product/detail?id=21
+[ info ] 127.0.0.1:4001/index/product/detail?id=21 [运行时间：1.849107s][吞吐率：0.54req/s] [内存消耗：2,404.46kb] [文件加载：38]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'product',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '21',
+)
+[ info ] [ RUN ] app\index\controller\Product->detail[ /Users/apple/git/huaqi/jxdzsw/application/index/controller/Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002790s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005446s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.000448s ]
+---------------------------------------------------------------
+[ 2017-09-28T06:23:46+08:00 ] 127.0.0.1 127.0.0.1 GET /index/product/detail?id=26
+[ info ] 127.0.0.1:4001/index/product/detail?id=26 [运行时间：1.888747s][吞吐率：0.53req/s] [内存消耗：2,405.25kb] [文件加载：38]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'product',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '26',
+)
+[ info ] [ RUN ] app\index\controller\Product->detail[ /Users/apple/git/huaqi/jxdzsw/application/index/controller/Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002118s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005038s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` = 26 LIMIT 1 [ RunTime:0.000471s ]
+---------------------------------------------------------------
+[ 2017-09-28T06:28:32+08:00 ] 127.0.0.1 127.0.0.1 GET /index/product/detail?id=21
+[ info ] 127.0.0.1:4001/index/product/detail?id=21 [运行时间：6.937453s][吞吐率：0.14req/s] [内存消耗：2,404.46kb] [文件加载：38]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'product',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '21',
+)
+[ info ] [ RUN ] app\index\controller\Product->detail[ /Users/apple/git/huaqi/jxdzsw/application/index/controller/Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001404s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.011411s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.000716s ]
+---------------------------------------------------------------
+[ 2017-09-28T06:28:57+08:00 ] 127.0.0.1 127.0.0.1 GET /index/product/detail?id=21
+[ info ] 127.0.0.1:4001/index/product/detail?id=21 [运行时间：12.982621s][吞吐率：0.08req/s] [内存消耗：2,404.50kb] [文件加载：38]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'product',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '21',
+)
+[ info ] [ RUN ] app\index\controller\Product->detail[ /Users/apple/git/huaqi/jxdzsw/application/index/controller/Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002405s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004968s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.000464s ]
+---------------------------------------------------------------
+[ 2017-09-28T06:31:11+08:00 ] 127.0.0.1 127.0.0.1 GET /index/product/detail?id=21
+[ info ] 127.0.0.1:4001/index/product/detail?id=21 [运行时间：0.098746s][吞吐率：10.13req/s] [内存消耗：2,402.83kb] [文件加载：38]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'product',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '21',
+)
+[ info ] [ RUN ] app\index\controller\Product->detail[ /Users/apple/git/huaqi/jxdzsw/application/index/controller/Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002535s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.014010s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.000987s ]
+---------------------------------------------------------------
+[ 2017-09-28T07:20:55+08:00 ] 127.0.0.1 127.0.0.1 GET /index/news
+[ info ] 127.0.0.1:4001/index/news [运行时间：0.118436s][吞吐率：8.44req/s] [内存消耗：2,397.41kb] [文件加载：38]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'news',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\News->index[ /Users/apple/git/huaqi/jxdzsw/application/index/controller/News.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001398s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.011536s ]
+[ sql ] [ SQL ] SELECT * FROM `news` [ RunTime:0.000640s ]
+---------------------------------------------------------------
+[ 2017-09-28T07:21:05+08:00 ] 127.0.0.1 127.0.0.1 GET /index/news/detail?id=1
+[ info ] 127.0.0.1:4001/index/news/detail?id=1 [运行时间：2.810246s][吞吐率：0.36req/s] [内存消耗：2,399.78kb] [文件加载：38]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'news',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\index\controller\News->detail[ /Users/apple/git/huaqi/jxdzsw/application/index/controller/News.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002326s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.004639s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000490s ]
+---------------------------------------------------------------
+[ 2017-09-28T07:23:24+08:00 ] 127.0.0.1 127.0.0.1 GET /index/news/detail?id=1
+[ info ] 127.0.0.1:4001/index/news/detail?id=1 [运行时间：0.079341s][吞吐率：12.60req/s] [内存消耗：2,398.15kb] [文件加载：38]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'news',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\index\controller\News->detail[ /Users/apple/git/huaqi/jxdzsw/application/index/controller/News.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002249s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.004871s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000558s ]
+---------------------------------------------------------------
+[ 2017-09-28T10:06:29+08:00 ] 127.0.0.1 127.0.0.1 GET /index/message?mobile=1
+[ info ] 127.0.0.1:4001/index/message?mobile=1 [运行时间：7.604071s][吞吐率：0.13req/s] [内存消耗：1,514.65kb] [文件加载：31]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'message',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Message->index[ /Users/apple/git/huaqi/jxdzsw/application/index/controller/Message.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-28T10:07:07+08:00 ] 127.0.0.1 127.0.0.1 GET /index/message?mobile=1&&content=aaa
+[ info ] 127.0.0.1:4001/index/message?mobile=1&&content=aaa [运行时间：28.341339s][吞吐率：0.04req/s] [内存消耗：2,365.08kb] [文件加载：38]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'message',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '1',
+  'content' => 'aaa',
+)
+[ info ] [ RUN ] app\index\controller\Message->index[ /Users/apple/git/huaqi/jxdzsw/application/index/controller/Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004280s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `message` [ RunTime:0.012746s ]
+[ sql ] [ SQL ] INSERT INTO `message` (`email` , `mobile` , `content`) VALUES ('' , '1' , 'aaa') [ RunTime:0.015164s ]
+---------------------------------------------------------------
+[ 2017-09-28T10:07:22+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ info ] 127.0.0.1:4001/admin [运行时间：0.064175s][吞吐率：15.58req/s] [内存消耗：1,593.50kb] [文件加载：36]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Cases->index[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ VIEW ] /Users/apple/git/huaqi/jxdzsw/application/admin/view/cases/index.html [ array (
+  0 => 'access_menu',
+  1 => 'menu',
+  2 => 'module',
+  3 => 'action',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-28T10:07:23+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/cases/ajax_fetch?_search=false&nd=1506564443513&rows=12&page=1&sidx=&sord=asc
+[ info ] 127.0.0.1:4001/admin/cases/ajax_fetch?_search=false&nd=1506564443513&rows=12&page=1&sidx=&sord=asc [运行时间：0.089308s][吞吐率：11.20req/s] [内存消耗：2,463.37kb] [文件加载：41]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cases',
+    2 => 'ajax_fetch',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  '_search' => 'false',
+  'nd' => '1506564443513',
+  'rows' => '12',
+  'page' => '1',
+  'sidx' => '',
+  'sord' => 'asc',
+)
+[ info ] [ RUN ] app\admin\controller\Cases->ajax_fetch[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Cases.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004568s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cases` [ RunTime:0.008610s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `cases` LIMIT 1 [ RunTime:0.004988s ]
+[ sql ] [ SQL ] SELECT * FROM `cases` ORDER BY id desc LIMIT 0,12 [ RunTime:0.003759s ]
+---------------------------------------------------------------
+[ 2017-09-28T10:07:26+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/message/index
+[ info ] 127.0.0.1:4001/admin/message/index [运行时间：0.034480s][吞吐率：29.00req/s] [内存消耗：1,585.20kb] [文件加载：36]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'message',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Message->index[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Message.php ]
+[ info ] [ VIEW ] /Users/apple/git/huaqi/jxdzsw/application/admin/view/message/index.html [ array (
+  0 => 'module',
+  1 => 'access_menu',
+  2 => 'menu',
+  3 => 'action',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-28T10:07:26+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/message/ajax_fetch?_search=false&nd=1506564446334&rows=12&page=1&sidx=&sord=asc
+[ info ] 127.0.0.1:4001/admin/message/ajax_fetch?_search=false&nd=1506564446334&rows=12&page=1&sidx=&sord=asc [运行时间：0.054541s][吞吐率：18.33req/s] [内存消耗：2,450.14kb] [文件加载：41]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'message',
+    2 => 'ajax_fetch',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/message/index',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  '_search' => 'false',
+  'nd' => '1506564446334',
+  'rows' => '12',
+  'page' => '1',
+  'sidx' => '',
+  'sord' => 'asc',
+)
+[ info ] [ RUN ] app\admin\controller\Message->ajax_fetch[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003272s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `message` [ RunTime:0.006998s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `message` LIMIT 1 [ RunTime:0.000422s ]
+[ sql ] [ SQL ] SELECT * FROM `message` ORDER BY id desc LIMIT 0,12 [ RunTime:0.003273s ]
+---------------------------------------------------------------
+[ 2017-09-28T10:08:26+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/message/index
+[ info ] 127.0.0.1:4001/admin/message/index [运行时间：0.071833s][吞吐率：13.92req/s] [内存消耗：1,809.27kb] [文件加载：38]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'message',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Message->index[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Message.php ]
+[ info ] [ VIEW ] /Users/apple/git/huaqi/jxdzsw/application/admin/view/message/index.html [ array (
+  0 => 'module',
+  1 => 'access_menu',
+  2 => 'menu',
+  3 => 'action',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-28T10:08:27+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/message/ajax_fetch?_search=false&nd=1506564507183&rows=12&page=1&sidx=&sord=asc
+[ info ] 127.0.0.1:4001/admin/message/ajax_fetch?_search=false&nd=1506564507183&rows=12&page=1&sidx=&sord=asc [运行时间：0.105836s][吞吐率：9.45req/s] [内存消耗：2,450.14kb] [文件加载：41]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'message',
+    2 => 'ajax_fetch',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/message/index',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  '_search' => 'false',
+  'nd' => '1506564507183',
+  'rows' => '12',
+  'page' => '1',
+  'sidx' => '',
+  'sord' => 'asc',
+)
+[ info ] [ RUN ] app\admin\controller\Message->ajax_fetch[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005963s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `message` [ RunTime:0.015657s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `message` LIMIT 1 [ RunTime:0.001095s ]
+[ sql ] [ SQL ] SELECT * FROM `message` ORDER BY id desc LIMIT 0,12 [ RunTime:0.002180s ]
+---------------------------------------------------------------
+[ 2017-09-28T10:08:36+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/message/index
+[ info ] 127.0.0.1:4001/admin/message/index [运行时间：0.041542s][吞吐率：24.07req/s] [内存消耗：1,809.27kb] [文件加载：38]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'message',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Message->index[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Message.php ]
+[ info ] [ VIEW ] /Users/apple/git/huaqi/jxdzsw/application/admin/view/message/index.html [ array (
+  0 => 'module',
+  1 => 'access_menu',
+  2 => 'menu',
+  3 => 'action',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-28T10:08:37+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/message/ajax_fetch?_search=false&nd=1506564517135&rows=12&page=1&sidx=&sord=asc
+[ info ] 127.0.0.1:4001/admin/message/ajax_fetch?_search=false&nd=1506564517135&rows=12&page=1&sidx=&sord=asc [运行时间：0.046483s][吞吐率：21.51req/s] [内存消耗：2,450.14kb] [文件加载：41]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'message',
+    2 => 'ajax_fetch',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/message/index',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  '_search' => 'false',
+  'nd' => '1506564517135',
+  'rows' => '12',
+  'page' => '1',
+  'sidx' => '',
+  'sord' => 'asc',
+)
+[ info ] [ RUN ] app\admin\controller\Message->ajax_fetch[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004134s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `message` [ RunTime:0.006819s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `message` LIMIT 1 [ RunTime:0.000423s ]
+[ sql ] [ SQL ] SELECT * FROM `message` ORDER BY id desc LIMIT 0,12 [ RunTime:0.001092s ]
+---------------------------------------------------------------
+[ 2017-09-28T10:08:40+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/product/index
+[ info ] 127.0.0.1:4001/admin/product/index [运行时间：0.028924s][吞吐率：34.57req/s] [内存消耗：1,837.48kb] [文件加载：38]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'product',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/message/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Product->index[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Product.php ]
+[ info ] [ VIEW ] /Users/apple/git/huaqi/jxdzsw/application/admin/view/product/index.html [ array (
+  0 => 'module',
+  1 => 'access_menu',
+  2 => 'menu',
+  3 => 'action',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-28T10:08:40+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/product/ajax_fetch?_search=false&nd=1506564520536&rows=12&page=1&sidx=&sord=asc
+[ info ] 127.0.0.1:4001/admin/product/ajax_fetch?_search=false&nd=1506564520536&rows=12&page=1&sidx=&sord=asc [运行时间：0.055844s][吞吐率：17.91req/s] [内存消耗：2,460.11kb] [文件加载：41]
+[ info ] [ LANG ] /Users/apple/git/huaqi/jxdzsw/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'product',
+    2 => 'ajax_fetch',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=4vm58139s39e17q1abuia2rjm6; rltoken=fb0bc96fba8eb5e6c6244a0ab2ece180; rlsession=0c15492a243962f552d67fa0d406b5d1; Hm_lvt_dd009de765b2fae8e1db01f30d425054=1505650705; Hm_lpvt_dd009de765b2fae8e1db01f30d425054=1506298258; UM_distinctid=15ebea1e1dd23d-0a163e505cba97-31607e03-fa000-15ebea1e1de581; CNZZDATA1260952736=341579358-1506436834-%7C1506436834',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:4001/admin/product/index',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1:4001',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  '_search' => 'false',
+  'nd' => '1506564520536',
+  'rows' => '12',
+  'page' => '1',
+  'sidx' => '',
+  'sord' => 'asc',
+)
+[ info ] [ RUN ] app\admin\controller\Product->ajax_fetch[ /Users/apple/git/huaqi/jxdzsw/application/admin/controller/Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003046s ] mysql:dbname=jxdzsw;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.006363s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `product` LIMIT 1 [ RunTime:0.000519s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY id desc LIMIT 0,12 [ RunTime:0.000464s ]
