@@ -5,11 +5,11 @@
   </view>
   <view class="footer_h"></view>
   <view class="footer">
-    <navigator class="current" url="../index/index" hover-class="navigator-hover">
+    <navigator url="../index/index" hover-class="navigator-hover">
       <view class="iconfont icon-shouye"></view>
       <text>首页</text>
     </navigator>
-    <navigator url="../product/product" hover-class="navigator-hover">
+    <navigator class="current" url="../product/product" hover-class="navigator-hover">
       <view class="iconfont icon-chanpin"></view>
       <text>产品中心</text>
     </navigator>
@@ -19,7 +19,7 @@
     </navigator>
     <navigator url="../contactus/contactus" hover-class="navigator-hover">
       <view class="iconfont icon-lianxi"></view>
-      <text>联系我们</text>
+      <text>公司介绍</text>
     </navigator>
     <navigator url="../leave/leave" hover-class="navigator-hover">
       <view class="iconfont icon-liuyan"></view>
