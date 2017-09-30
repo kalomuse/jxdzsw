@@ -15,7 +15,6 @@ Page({
         'content-type': 'application/json'
       },
       success: function (res) {
-        console.log(res)
         var article = res.data.content;
         WxParse.wxParse('article', 'html', article, self, 5);
         self.setData({
