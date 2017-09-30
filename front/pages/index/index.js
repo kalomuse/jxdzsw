@@ -5,7 +5,7 @@ Page({
   onLoad:function(){
     var self = this
     wx.request({
-      url: app.website, //仅为示例，并非真实的接口地址
+      url: app.website,
       data: {
       },
       header: {
@@ -22,10 +22,17 @@ Page({
   data: {
 
   },
-  //新闻表页面跳转事件处理函数
-  bindnews: function() {
+  //查看更多
+  more_product: function (e) {
+    var type = this.data.data.d_product
     wx.navigateTo({
-      url: '../news/news'
+      url: '../product/product?type=' + type
+    })
+  },
+  more_case: function (e) {
+    var type = this.data.data.d_case
+    wx.navigateTo({
+      url: '../case/case?type=' + type
     })
   },
   //产品详情页面事件处理函数

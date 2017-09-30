@@ -2,7 +2,7 @@
 .contactus-wrap{
   display: block;
   width: 100%;
-  margin-top: 15px;
+  margin-top: 6px;
   background: #fff;
 }
 .contactus-wrap .item{

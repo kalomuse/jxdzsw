@@ -2,10 +2,12 @@
 //获取应用实例
 var app = getApp()
 Page({
-  onLoad: function () {
+  onLoad: function (option) {
+    if (!option.type)
+      option.type = ''
     var self = this
     wx.request({
-      url: app.website + '/index/product',
+      url: app.website + '/index/product?type=',
       data: {
       },
       header: {
@@ -14,7 +16,7 @@ Page({
       success: function (res) {
         self.setData({
           website: app.website,
-          data: res.data
+          data: res.data.product
         })
       },
     })

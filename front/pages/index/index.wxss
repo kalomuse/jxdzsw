@@ -51,6 +51,12 @@
   padding-left: 10px;
   border-left: 10rpx solid #1F98EE;
 }
+.more{
+  font-size: 33rpx;
+  text-align:center;
+  border-bottom: 1px solid #E6E6E6;
+  padding: 20rpx 28rpx;
+}
 .monthmain-wrap{
   padding: 30rpx 30rpx;
 }

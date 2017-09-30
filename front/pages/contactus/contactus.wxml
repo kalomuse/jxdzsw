@@ -1,39 +1,15 @@
 <!--contactus.wxml-->
 <view class="container">
   <view class="subbanner">
-    <image class="img" src="../../images/5555.jpg"></image>
+    <image class="img" src="{{website + data.top}}"></image>
   </view>
   <view class="contactus-wrap">  
+  <view wx:for="{{data.info}}">
     <view class="item">
-      <view class="tit">名称：</view>
-      <view class="info">嘉兴市电子商务服务中心（运营中心）</view>
-    </view>
-    <view class="item">
-      <view class="tit">地址：</view>
-      <view class="info">嘉兴市中环西路颐高广场2F</view>
-    </view>
-    <view class="item">
-      <view class="tit">联系人：</view>
-      <view class="info">顾老师</view>
-    </view>
-    <view class="item">
-      <view class="tit">电话：</view>
-      <view class="info info-phone">18757379696</view>
-    </view>
-    <view class="item">
-      <view class="tit">微信：</view>
-      <view class="info info-phone">18757379696</view>
+      <view class="tit">{{item.name}}</view>
+      <view class="info">{{item.value}}</view>
     </view>
   </view>
-  <view class="contactus-wrap">  
-    <view class="item">
-      <view class="tit">公司介绍：</view>
-      <view class="info">嘉兴市电子商务服务中心（以下简称服务中心）于2004年6月1日正式登记成立，主管单位为嘉兴市经济和信息化委员会。服务中心的成立旨在为嘉兴市中小企业开展电子商务活动提供经常性专业</view>
-    </view>
-    <view class="item">
-      <view class="tit">服务团队：</view>
-      <view class="info">我公司工程技术部主要负责微信公众号、程序的编写、客户培训及客户整体方案策划。我们将根据您的设计要求及网上商务目标指定相应的网站建设计划，从网页设计直</view>
-    </view>
   </view>
   <view class="footer_h"></view>
   <view class="footer">
